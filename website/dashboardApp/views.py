@@ -44,5 +44,6 @@ class SingleView(TemplateView):
 
     def get_context_data(self, **kwargs):
         context = super(SingleView, self).get_context_data(**kwargs)
+        context['sprint_completion'] = '89%'
         return context;
 
