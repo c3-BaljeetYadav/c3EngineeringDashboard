@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c412031-9456-4004-a19f-124dd6fa2ff9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/website/dashboardApp/ui-template/index-okta.html.en" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/dashboardApp/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/dashboardApp/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/dashboardApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/dashboardApp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/dashboardApp/ui-template/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/website/dashboardApp/ui-template/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/website/dashboardApp/ui-template/pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/dashboardApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/dashboardApp/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/dashboardApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/dashboardApp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/website/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/website/website/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/website/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/website/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/website/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,26 +27,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="4" />
+          <entry key="en" value="1" />
+          <entry key="html" value="7" />
           <entry key="py" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="4" />
+          <entry key="HTML" value="8" />
           <entry key="Python" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="157" />
-          <entry key="py" value="4625" />
+          <entry key="en" value="17" />
+          <entry key="html" value="541" />
+          <entry key="py" value="5252" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="157" />
-          <entry key="Python" value="4625" />
+          <entry key="HTML" value="558" />
+          <entry key="Python" value="5252" />
         </counts>
       </usages-collector>
     </session>
@@ -55,47 +58,52 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website/dashboardApp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="50" column="72" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="72" />
+            <state relative-caret-position="327">
+              <caret line="109" column="18" selection-start-line="109" selection-start-column="18" selection-end-line="109" selection-end-column="18" />
               <folding>
                 <element signature="e#137#182#0" expanded="true" />
-                <marker date="1541779064009" expanded="true" signature="2:134" ph="..." />
-                <marker date="1541779064009" expanded="true" signature="1329:1334" ph="..." />
+                <marker date="1541789011314" expanded="true" signature="2:134" ph="..." />
+                <marker date="1541789011314" expanded="true" signature="446:631" ph="..." />
+                <marker date="1541789011314" expanded="true" signature="1539:1544" ph="..." />
+                <marker date="1541789011314" expanded="true" signature="2631:2882" ph="..." />
+                <marker date="1541789011314" expanded="true" signature="4573:4574" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/website/dashboardApp/ui-template/pages/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="962" column="17" selection-start-line="962" selection-start-column="17" selection-end-line="962" selection-end-column="82" />
+            <state relative-caret-position="176">
+              <caret line="368" column="49" selection-start-line="368" selection-start-column="49" selection-end-line="368" selection-end-column="49" />
               <folding>
                 <element signature="n#style#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#li#2;n#ul#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#li#4;n#ul#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#li#6;n#ul#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#li#0;n#ul#0;n#div#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/website/website/settings.py">
+        <entry file="file://$PROJECT_DIR$/website/dashboardApp/ui-template/pages/news.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="58" column="13" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="13" />
+            <state relative-caret-position="105">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website/dashboardApp/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="765">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <marker date="1541780337672" expanded="true" signature="256:352" ph="..." />
                 <marker date="1541780337672" expanded="true" signature="396:686" ph="..." />
@@ -135,8 +143,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website/dashboardApp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+            <state relative-caret-position="15">
+              <caret line="1" column="61" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -145,10 +153,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website/dashboardApp/ui-template/index-okta.html.en">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website/website/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+            <state relative-caret-position="315">
+              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
               <folding>
                 <element signature="e#631#663#0" expanded="true" />
               </folding>
@@ -176,8 +193,21 @@
       <find>P0s this sprin</find>
       <find>time</find>
       <find>p0s</find>
-      <find>DIRS</find>
       <find>RCAs completed</find>
+      <find>DIRS</find>
+      <find>metismenu</find>
+      <find>dist/js/sb-admin-2.js</find>
+      <find>27</find>
+      <find>time spent</find>
+      <find>sidebar</find>
+      <find>dashboard</find>
+      <find>JIRRA</find>
+      <find>static</find>
+      <find>navbar-default sidebar</find>
+      <find>XYZ</find>
+      <find>regressions</find>
+      <find>HOURS_IN_SPRINT</find>
+      <find>Dashboard</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -188,15 +218,17 @@
       <list>
         <option value="$PROJECT_DIR$/website/dashboardApp/index.html" />
         <option value="$PROJECT_DIR$/website/dashboardApp/charts.py" />
-        <option value="$PROJECT_DIR$/website/dashboardApp/urls.py" />
         <option value="$PROJECT_DIR$/website/dashboardApp/ui-template/index.html" />
-        <option value="$PROJECT_DIR$/website/website/urls.py" />
-        <option value="$PROJECT_DIR$/website/website/settings.py" />
         <option value="$PROJECT_DIR$/website/dashboardApp/resources.py" />
         <option value="$PROJECT_DIR$/website/dashboardApp/import.html" />
+        <option value="$PROJECT_DIR$/website/dashboardApp/models.py" />
+        <option value="$PROJECT_DIR$/website/website/urls.py" />
+        <option value="$PROJECT_DIR$/website/dashboardApp/ui-template/index-okta.html.en" />
+        <option value="$PROJECT_DIR$/website/website/settings.py" />
+        <option value="$PROJECT_DIR$/website/dashboardApp/urls.py" />
+        <option value="$PROJECT_DIR$/website/dashboardApp/ui-template/pages/news.html" />
         <option value="$PROJECT_DIR$/website/dashboardApp/views.py" />
         <option value="$PROJECT_DIR$/website/dashboardApp/ui-template/pages/index.html" />
-        <option value="$PROJECT_DIR$/website/dashboardApp/models.py" />
       </list>
     </option>
   </component>
@@ -247,7 +279,16 @@
               <item name="c3EngineeringDashboard" type="b2602c69:ProjectViewProjectNode" />
               <item name="c3EngineeringDashboard" type="462c0819:PsiDirectoryNode" />
               <item name="website" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboardApp" type="462c0819:PsiDirectoryNode" />
+              <item name="ui-template" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="c3EngineeringDashboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="c3EngineeringDashboard" type="462c0819:PsiDirectoryNode" />
               <item name="website" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboardApp" type="462c0819:PsiDirectoryNode" />
+              <item name="ui-template" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -326,51 +367,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/dashboardApp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/website/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <folding>
-            <element signature="e#631#663#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/dashboardApp/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/dashboardApp/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/dashboardApp/charts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-            <marker date="1541725688092" expanded="true" signature="988:993" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website/dashboardApp/resources.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -388,50 +384,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/dashboardApp/admin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/dashboardApp/views.py">
+    <entry file="file://$PROJECT_DIR$/website/dashboardApp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="50" column="72" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="72" />
-          <folding>
-            <element signature="e#137#182#0" expanded="true" />
-            <marker date="1541779064009" expanded="true" signature="2:134" ph="..." />
-            <marker date="1541779064009" expanded="true" signature="1329:1334" ph="..." />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/website/website/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="58" column="13" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="13" />
+        <state relative-caret-position="341">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/dashboardApp/ui-template/index-okta.html.en">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/dashboardApp/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/dashboardApp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <marker date="1541780337672" expanded="true" signature="256:352" ph="..." />
+            <marker date="1541780337672" expanded="true" signature="396:686" ph="..." />
+            <marker date="1541780337672" expanded="true" signature="715:716" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/dashboardApp/charts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+            <marker date="1541725688092" expanded="true" signature="988:993" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/dashboardApp/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/website/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          <folding>
+            <element signature="e#631#663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/dashboardApp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="61" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/dashboardApp/ui-template/pages/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/dashboardApp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="109" column="18" selection-start-line="109" selection-start-column="18" selection-end-line="109" selection-end-column="18" />
+          <folding>
+            <element signature="e#137#182#0" expanded="true" />
+            <marker date="1541789011314" expanded="true" signature="2:134" ph="..." />
+            <marker date="1541789011314" expanded="true" signature="446:631" ph="..." />
+            <marker date="1541789011314" expanded="true" signature="1539:1544" ph="..." />
+            <marker date="1541789011314" expanded="true" signature="2631:2882" ph="..." />
+            <marker date="1541789011314" expanded="true" signature="4573:4574" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/website/dashboardApp/ui-template/pages/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="962" column="17" selection-start-line="962" selection-start-column="17" selection-end-line="962" selection-end-column="82" />
+        <state relative-caret-position="176">
+          <caret line="368" column="49" selection-start-line="368" selection-start-column="49" selection-end-line="368" selection-end-column="49" />
           <folding>
             <element signature="n#style#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#li#2;n#ul#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#li#4;n#ul#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#li#6;n#ul#0;n#li#1;n#ul#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/dashboardApp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <marker date="1541780337672" expanded="true" signature="256:352" ph="..." />
-            <marker date="1541780337672" expanded="true" signature="396:686" ph="..." />
-            <marker date="1541780337672" expanded="true" signature="715:716" ph="..." />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#li#0;n#ul#0;n#div#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>

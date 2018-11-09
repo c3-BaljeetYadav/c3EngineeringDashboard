@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 
 <head>
@@ -9,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>C3 Developer Dashboard</title>
+    <title>C3P0: The Engineer's Assistant</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
@@ -48,7 +49,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">C3 Developer Dashboard</a>
+                <a class="navbar-brand" href="index.html">C3P0: The Engineer's Assistant</a>
             </div>
             <!-- /.navbar-header -->
 
@@ -264,6 +265,7 @@
 
             <div class="navbar-default sidebar" role="navigation">
                 <div class="sidebar-nav navbar-collapse">
+                    <img src="/ui-template/images/c3po.png" style="padding: 16px 24px 16px 24px;">
                     <ul class="nav" id="side-menu">
                         <li class="sidebar-search">
                             <div class="input-group custom-search-form">
@@ -292,10 +294,10 @@
                             <!-- /.nav-second-level -->
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-bell fa-fw"></i> Company News</a>
+                            <a href="news.html"><i class="fa fa-bell fa-fw"></i> Company News</a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-support fa-fw"></i> JIRA<!-- <span class="fa arrow"></span> --></a>
+                            <a href="https://c3energy.atlassian.net/secure/Dashboard.jspa" target="_blank"><i class="fa fa-support fa-fw"></i> JIRA<!-- <span class="fa arrow"></span> --></a>
                        <!--      <ul class="nav nav-second-level">
                                 <li>
                                     <a href="panels-wells.html">Panels and Wells</a>
@@ -319,7 +321,7 @@
                             <!-- /.nav-second-level -->
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-upload fa-fw"></i> Github<!-- <span class="fa arrow"></span> --></a>
+                            <a href="https://github.com/" target="_blank"><i class="fa fa-upload fa-fw"></i> Github<!-- <span class="fa arrow"></span> --></a>
                        <!--      <ul class="nav nav-second-level">
                                 <li>
                                     <a href="panels-wells.html">Panels and Wells</a>
@@ -364,7 +366,7 @@
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Dashboard</h1>
+                    <h1 class="page-header">C3P0 Dashboard</h1>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
@@ -379,8 +381,8 @@
                                     <i class="fa fa-comments fa-5x"></i>
                                 </div> -->
                                 <div class="col-xs-9 text-right">
-                                    <div class="huge">{{sprint_completion|safe}}</div>
-                                    <div>( 27 / 70 )</div>
+                                    <div class="huge">{{ sprint_completion|safe }}</div>
+                                    <div>( {{ sprint_completion_subscript | safe }} )</div>
                                 </div>
                             </div>
                         </div>
@@ -394,7 +396,7 @@
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-6">
-                    <div class="panel panel-red">
+                    <div class="panel panel-green">
                         <div class="panel-heading">
                                 <span class="pull-left">P0s this sprint</span>
                             <div class="row">
@@ -403,7 +405,7 @@
                                 </div> -->
                                 <div class="col-xs-9 text-right">
                                     <div class="huge">{{p0s|safe}}</div>
-                                    <div> . </div>
+                                    <div>tickets</div>
                                 </div>
                             </div>
                         </div>
@@ -426,7 +428,7 @@
                                 </div> -->
                                 <div class="col-xs-9 text-right">
                                     <div class="huge">{{p1s|safe}}</div>
-                                    <div>.</div>
+                                    <div>tickets</div>
                                 </div>
                             </div>
                         </div>
@@ -465,14 +467,14 @@
                 <div class="col-lg-2 col-md-6">
                     <div class="panel panel-red">
                         <div class="panel-heading">
-                                <span class="pull-left">Time spent over estimate</span>
+                                <span class="pull-left"># of tickets underestimated</span>
                             <div class="row">
 <!--                                 <div class="col-xs-3">
                                     <i class="fa fa-support fa-5x"></i>
                                 </div> -->
                                 <div class="col-xs-9 text-right">
                                     <div class="huge">{{ tickets_under_estimated|safe }}</div>
-                                    <div>.</div>
+                                    <div>tickets</div>
                                 </div>
                             </div>
                         </div>
@@ -487,16 +489,16 @@
                 </div>
 
                 <div class="col-lg-2 col-md-6">
-                    <div class="panel panel-red">
+                    <div class="panel panel-yellow">
                         <div class="panel-heading">
-                                <span class="pull-left">Regressions</span>
+                                <span class="pull-left">Time in meetings</span>
                             <div class="row">
 <!--                                 <div class="col-xs-3">
                                     <i class="fa fa-support fa-5x"></i>
                                 </div> -->
                                 <div class="col-xs-9 text-right">
-                                    <div class="huge">2</div>
-                                    <div>Tickets reopened</div>
+                                    <div class="huge">{{time_in_meetings_today | safe}}</div>
+                                    <div>Hr</div>
                                 </div>
                             </div>
                         </div>
@@ -522,7 +524,7 @@
                         <div class="panel-body">
                             <div class="list-group">
                                 <a href="#" class="list-group-item">
-                                    <i class="fa fa-warning fa-fw"></i> Pull Request XYZ has been open for more than 24 hours
+                                    <i class="fa fa-warning fa-fw"></i> Pull Request #1234 has been open for more than 24 hours
                                     <span class="pull-right text-muted small"><em>4 minutes ago</em>
                                     </span>
                                 </a>
@@ -960,21 +962,21 @@
     <!-- /#wrapper -->
 
     <!-- jQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="{% static "vendor/jquery/jquery.min.js" %}"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></script>-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></script>
 
     <!-- Metis Menu Plugin JavaScript -->
-    <!--<script src="../vendor/metisMenu/metisMenu.min.js"></script>-->
+    <script src="{% static "vendor/metisMenu/metisMenu.min.js" %}"></script>
 
     <!-- Morris Charts JavaScript -->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
-    <!--<script src="../vendor/morrisjs/morris.min.js"></script>-->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
+    <script src="{% static "vendor/raphael/raphael.min.js" %}"></script>
+    <script src="{% static "vendor/morrisjs/morris.min.js" %}"></script>
+    <script src="{% static "data/morris-data.js" %}"></script>
 
     <!-- Custom Theme JavaScript -->
-    <!--<script src="../dist/js/sb-admin-2.js"></script>-->
+    <script src="{% static "dist/js/sb-admin-2.js" %}"></script>
 
 </body>
 
