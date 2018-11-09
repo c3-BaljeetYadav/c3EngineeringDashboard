@@ -3,59 +3,207 @@ $(function() {
     Morris.Area({
         element: 'morris-area-chart',
         data: [{
-            period: '2010 Q1',
-            iphone: 2666,
-            ipad: null,
-            itouch: 2647
+            period: '2018-10-29',
+            PR_Created: 4,
+            PR_Assigned: null
         }, {
-            period: '2010 Q2',
-            iphone: 2778,
-            ipad: 2294,
-            itouch: 2441
+            period: '2018-10-30',
+            PR_Created: 3,
+            PR_Assigned: 1
         }, {
-            period: '2010 Q3',
-            iphone: 4912,
-            ipad: 1969,
-            itouch: 2501
+            period: '2018-10-31',
+            PR_Created: 3,
+            PR_Assigned: null
         }, {
-            period: '2010 Q4',
-            iphone: 3767,
-            ipad: 3597,
-            itouch: 5689
+            period: '2018-11-01',
+            PR_Created: 5,
+            PR_Assigned: 2
         }, {
-            period: '2011 Q1',
-            iphone: 6810,
-            ipad: 1914,
-            itouch: 2293
+            period: '2018-11-02',
+            PR_Created: 4,
+            PR_Assigned: 1
         }, {
-            period: '2011 Q2',
-            iphone: 5670,
-            ipad: 4293,
-            itouch: 1881
+            period: '2018-11-05',
+            PR_Created: 4,
+            PR_Assigned: 2
         }, {
-            period: '2011 Q3',
-            iphone: 4820,
-            ipad: 3795,
-            itouch: 1588
+            period: '2018-11-06',
+            PR_Created: 3,
+            PR_Assigned: 1
         }, {
-            period: '2011 Q4',
-            iphone: 15073,
-            ipad: 5967,
-            itouch: 5175
+            period: '2018-11-07',
+            PR_Created: 4,
+            PR_Assigned: null
         }, {
-            period: '2012 Q1',
-            iphone: 10687,
-            ipad: 4460,
-            itouch: 2028
+            period: '2018-11-08',
+            PR_Created: 2,
+            PR_Assigned: null
         }, {
-            period: '2012 Q2',
-            iphone: 8432,
-            ipad: 5713,
-            itouch: 1791
+            period: '2018-11-09',
+            PR_Created: 3,
+            PR_Assigned: 1
         }],
         xkey: 'period',
-        ykeys: ['iphone', 'ipad', 'itouch'],
-        labels: ['iPhone', 'iPad', 'iPod Touch'],
+        ykeys: ['PR_Created', 'PR_Assigned'],
+        labels: ['PR_Created', 'PR_Assigned'],
+        pointSize: 2,
+        hideHover: 'auto',
+        resize: true
+    });
+
+
+    Morris.Area({
+        element: 'morris-area-chart2',
+        data: [{
+            PRNumber: '8251',
+            LinesOfCode: 14
+        }, {
+            PRNumber: '8252',
+            LinesOfCode: 150
+        }, {
+            PRNumber: '8253',
+            LinesOfCode: 12
+        }, {
+            PRNumber: '8254',
+            LinesOfCode: 62
+        }, {
+            PRNumber: '8255',
+            LinesOfCode: 72
+        }, {
+            PRNumber: '8256',
+            LinesOfCode: 18
+        }, {
+            PRNumber: '8257',
+            LinesOfCode: 30
+        }, {
+            PRNumber: '8258',
+            LinesOfCode: 4
+        }, {
+            PRNumber: '8259',
+            LinesOfCode: 18
+        }, {
+            PRNumber: '8260',
+            LinesOfCode: 90
+        }],
+        xkey: 'PRNumber',
+        ykeys: ['LinesOfCode'],
+        labels: ['LinesOfCode'],
+        pointSize: 2,
+        hideHover: 'auto',
+        resize: true
+    });
+
+
+    Morris.Area({
+        element: 'morris-area-chart3',
+        data: [{
+            period: '222',
+            SprintCompletionPercent: 80,
+            PR_Assigned: null
+        }, {
+            period: '223',
+            SprintCompletionPercent: 60,
+            PR_Assigned: 1
+        }, {
+            period: '224',
+            SprintCompletionPercent: 65,
+            PR_Assigned: 1
+        }, {
+            period: '225',
+            SprintCompletionPercent: 26,
+            PR_Assigned: 1
+        }, {
+            period: '226',
+            SprintCompletionPercent: 67,
+            PR_Assigned: 1
+        }, {
+            period: '227',
+            SprintCompletionPercent: 80,
+            PR_Assigned: 1
+        }, {
+            period: '228',
+            SprintCompletionPercent: 95,
+            PR_Assigned: 1
+        }, {
+            period: '229',
+            SprintCompletionPercent: 76,
+            PR_Assigned: 1
+        }, {
+            period: '230',
+            SprintCompletionPercent: 77,
+            PR_Assigned: 1
+        }, {
+            period: '231',
+            SprintCompletionPercent: 45,
+            PR_Assigned: 1
+        }, {
+            period: '232',
+            SprintCompletionPercent: 80,
+            PR_Assigned: 1
+        }, {
+            period: '233',
+            SprintCompletionPercent: 88,
+            PR_Assigned: 1
+        }, {
+            period: '234',
+            SprintCompletionPercent: 81,
+            PR_Assigned: 1
+        }, {
+            period: '235',
+            SprintCompletionPercent: 95,
+            PR_Assigned: 1
+        }, {
+            period: '236',
+            SprintCompletionPercent: 90,
+            PR_Assigned: 1
+        }, {
+            period: '237',
+            SprintCompletionPercent: 70,
+            PR_Assigned: 1
+        }, {
+            period: '238',
+            SprintCompletionPercent: 78,
+            PR_Assigned: 1
+        }, {
+            period: '239',
+            SprintCompletionPercent: 70,
+            PR_Assigned: 1
+        }, {
+            period: '240',
+            SprintCompletionPercent: 60,
+            PR_Assigned: null
+        }, {
+            period: '241',
+            SprintCompletionPercent: 46,
+            PR_Assigned: 2
+        }, {
+            period: '242',
+            SprintCompletionPercent: 80,
+            PR_Assigned: 1
+        }, {
+            period: '243',
+            SprintCompletionPercent: 80,
+            PR_Assigned: 2
+        }, {
+            period: '244',
+            SprintCompletionPercent: 86,
+            PR_Assigned: 1
+        }, {
+            period: '245',
+            SprintCompletionPercent: 92,
+            PR_Assigned: null
+        }, {
+            period: '246',
+            SprintCompletionPercent: 71,
+            PR_Assigned: null
+        }, {
+            period: '247',
+            SprintCompletionPercent: 85,
+            PR_Assigned: 1
+        }],
+        xkey: 'period',
+        ykeys: ['SprintCompletionPercent'],
+        labels: ['SprintCompletionPercent'],
         pointSize: 2,
         hideHover: 'auto',
         resize: true

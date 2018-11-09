@@ -370,7 +370,7 @@
             </div>
             <!-- /.row -->
             <div class="row">
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-2 col-md-6">
                     <div class="panel panel-primary">
                         <div class="panel-heading">
                                 <span class="pull-left">Sprint Completion</span>
@@ -393,7 +393,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-2 col-md-6">
                     <div class="panel panel-green">
                         <div class="panel-heading">
                                 <span class="pull-left">P0s this sprint</span>
@@ -402,7 +402,7 @@
                                     <i class="fa fa-tasks fa-5x"></i>
                                 </div> -->
                                 <div class="col-xs-9 text-right">
-                                    <div class="huge">4 / 18</div>
+                                    <div class="huge">4/18</div>
                                     <div> . </div>
                                 </div>
                             </div>
@@ -416,7 +416,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-2 col-md-6">
                     <div class="panel panel-yellow">
                         <div class="panel-heading">
                                 <span class="pull-left">P1s this sprint</span>
@@ -425,7 +425,7 @@
                                     <i class="fa fa-shopping-cart fa-5x"></i>
                                 </div> -->
                                 <div class="col-xs-9 text-right">
-                                    <div class="huge">18 / 42</div>
+                                    <div class="huge">18/42</div>
                                     <div>.</div>
                                 </div>
                             </div>
@@ -439,7 +439,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-2 col-md-6">
                     <div class="panel panel-red">
                         <div class="panel-heading">
                                 <span class="pull-left">RCAs completed</span>
@@ -448,8 +448,8 @@
                                     <i class="fa fa-support fa-5x"></i>
                                 </div> -->
                                 <div class="col-xs-9 text-right">
-                                    <div class="huge">12 / 60</div>
-                                    <div>Required for P0s and P1s</div>
+                                    <div class="huge">12/60</div>
+                                    <div>P0s, P1s</div>
                                 </div>
                             </div>
                         </div>
@@ -462,10 +462,55 @@
                         </a>
                     </div>
                 </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="panel panel-red">
+                        <div class="panel-heading">
+                                <span class="pull-left">Time spent over estimate</span>
+                            <div class="row">
+<!--                                 <div class="col-xs-3">
+                                    <i class="fa fa-support fa-5x"></i>
+                                </div> -->
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge">2 / 60</div>
+                                    <div>.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <div class="panel-footer">
+                                <span class="pull-left">View Details</span>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6">
+                    <div class="panel panel-red">
+                        <div class="panel-heading">
+                                <span class="pull-left">Regressions</span>
+                            <div class="row">
+<!--                                 <div class="col-xs-3">
+                                    <i class="fa fa-support fa-5x"></i>
+                                </div> -->
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge">2</div>
+                                    <div>Tickets reopened</div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <div class="panel-footer">
+                                <span class="pull-left">View Details</span>
+                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
             </div>
-
-
-
 
             <div class="row">
 <div class="col-lg-12">
@@ -530,10 +575,46 @@
                     <!-- /.panel -->
                  </div>
             <!-- /.row -->
-<!--             <div class="row">
-                <div class="col-lg-8">
+            <div class="row">
+                <div class="col-lg-12">
                     <div class="panel panel-default">
                         <div class="panel-heading">
+                            <i class="fa fa-bar-chart-o fa-fw"></i> Pull Requests Created, Assigned
+                            <div class="pull-right">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
+                                        Actions
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu pull-right" role="menu">
+                                        <li><a href="#">Current Sprint</a>
+                                        </li>
+                                        <li><a href="#">Last 60 days</a>
+                                        </li>
+                                        <li><a href="#">Last 120 days</a>
+                                        </li>
+                                        <li class="divider"></li>
+                                        <li><a href="#">Historic Trend on GitHub</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div id="morris-area-chart"></div>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+            </div>
+                        <!-- /.panel-heading -->
+        </div>
+
+            <div class="row">
+                <div class="col-lg-8">
+<!--                     <div class="panel panel-default"> -->
+<!--                         <div class="panel-heading">
                             <i class="fa fa-bar-chart-o fa-fw"></i> Area Chart Example
                             <div class="pull-right">
                                 <div class="btn-group">
@@ -588,8 +669,8 @@
                         <!-- /.panel-heading -->
                         <div class="panel-body">
                             <div class="row">
-<!--                                 <div class="col-lg-4">
-                                    <div class="table-responsive">
+                                <div class="col-lg-4">
+<!--                                     <div class="table-responsive">
                                         <table class="table table-bordered table-hover table-striped">
                                             <thead>
                                                 <tr>
@@ -650,7 +731,7 @@
                                                 </tr>
                                             </tbody>
                                         </table>
-                                    </div>
+                                    </div> -->
                                     <!-- /.table-responsive -->
                                 </div>
                                 <!-- /.col-lg-4 (nested) -->
@@ -664,7 +745,81 @@
                         <!-- /.panel-body -->
                     </div>
                     <!-- /.panel -->
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-lg-12">
                     <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <i class="fa fa-bar-chart-o fa-fw"></i> Size of Pull Requests
+                            <div class="pull-right">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
+                                        Actions
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu pull-right" role="menu">
+                                        <li><a href="#">Current Sprint</a>
+                                        </li>
+                                        <li><a href="#">Last 60 days</a>
+                                        </li>
+                                        <li><a href="#">Last 120 days</a>
+                                        </li>
+                                        <li class="divider"></li>
+                                        <li><a href="#">Historic Trend on GitHub</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div id="morris-area-chart2"></div>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+</div>
+
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <i class="fa fa-bar-chart-o fa-fw"></i> Sprint Completion Rate %
+                            <div class="pull-right">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
+                                        Actions
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu pull-right" role="menu">
+                                        <li><a href="#">Current Sprint</a>
+                                        </li>
+                                        <li><a href="#">Last 60 days</a>
+                                        </li>
+                                        <li><a href="#">Last 120 days</a>
+                                        </li>
+                                        <li class="divider"></li>
+                                        <li><a href="#">Historic Trend on GitHub</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div id="morris-area-chart3"></div>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+            </div>
+
 <!--                         <div class="panel-heading">
                             <i class="fa fa-clock-o fa-fw"></i> Responsive Timeline
                         </div>
