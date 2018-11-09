@@ -48,7 +48,7 @@ s" type="text/css" rel="stylesheet"/>
         oktaSignIn.tokenManager.add("idToken", idToken);
 
         window.location.hash = "";
-        document.getElementById("messageBox").innerHTML = "Hello, " + idToken.claims.email + "! You just logged in! :)";
+        // Login message
       },
       function error(err) {
         console.error(err);
