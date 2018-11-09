@@ -6,10 +6,14 @@
 
 
 from django.views.generic import TemplateView
-from pygal.style import DarkStyle
-
+from django.db.models import Sum
+import operator
+from django.db.models import Q
+from functools import reduce
+from .models import JiraLogSprintCompletion, JiraLogs
 from .charts import BrowserUsageHorizontalChart
 
+HOURS_IN_SPRINT = 80/100
 
 class IndexView(TemplateView):
     template_name = 'index.html'
@@ -44,6 +48,45 @@ class SingleView(TemplateView):
 
     def get_context_data(self, **kwargs):
         context = super(SingleView, self).get_context_data(**kwargs)
-        context['sprint_completion'] = '89%'
+        context['sprint_completion'] = self.get_sprint_completion_rate()
+        context['rca_written_or_not'] = self.get_rca_written_or_not()
+        context['p0s'] = self.get_p0s()
+        context['p1s'] = self.get_p1s()
+        context['tickets_under_estimated'] = self.get_tickets_under_estimated()
         return context;
 
+    def get_sprint_completion_rate(self, current_sprint='247', current_user='jinyan.liu'):
+        sprint_objs = JiraLogSprintCompletion.objects.filter(assignee='jinyan.liu', sprint='247')
+        sum = 0;
+        for obj_ in sprint_objs:
+            sum += float(obj_.timeSpent)
+        return '%d%%' % (int(sum/HOURS_IN_SPRINT));
+
+
+    def get_rca_written_or_not(self):
+        query_p0_p1 = reduce(operator.or_, (Q(priority__contains=x) for x in ['P0', 'P1']))
+        set_one = JiraLogs.objects.filter(assignee='jinyan.liu', sprint__contains='247', issueType__contains='Bug')
+
+        sprint_objs_needing_rca = set_one.filter(query_p0_p1)
+        sprint_objs_with_rca = sprint_objs_needing_rca.exclude(rca__isnull=True).exclude(rca__exact='')
+        return '%d/%d' % (len(sprint_objs_with_rca), len(sprint_objs_needing_rca))
+
+    def get_p0s(self):
+        p0_objs = JiraLogs.objects.filter(assignee='jinyan.liu', sprint__contains='247', priority__contains='P0')
+        status_query = reduce(operator.or_, (Q(status__contains=x) for x in ['Closed', 'Close-Verified']))
+        completed_p0s_objs = p0_objs.filter(status_query)
+        return '%d/%d' % (len(completed_p0s_objs), len(p0_objs))
+
+    def get_p1s(self):
+        p1_objs = JiraLogs.objects.filter(assignee='jinyan.liu', sprint__contains='247', priority__contains='P1')
+        status_query = reduce(operator.or_, (Q(status__contains=x) for x in ['Closed', 'Close-Verified']))
+        completed_p1s_objs = p1_objs.filter(status_query)
+        return '%d/%d' % (len(completed_p1s_objs), len(p1_objs))
+
+    def get_tickets_under_estimated(self):
+        sprint_objs = JiraLogs.objects.filter(assignee='jinyan.liu', sprint__contains='247').exclude(timeSpent__isnull=True).exclude(originalEstimate__isnull=True)
+        count = 0
+        for obj_ in sprint_objs:
+            if obj_.timeSpent > obj_.originalEstimate:
+                count += 1
+        return count

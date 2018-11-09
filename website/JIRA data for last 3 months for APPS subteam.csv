@@ -1,0 +1,480 @@
+id,issuetype,key,assignee,priority,status,resolution,sprint,originalestimate,timespent,rca
+268979,New Feature,RESSMB-7286,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,No longer applicable,Sprint 241 (AUG 06 - AUG 19),0,,None
+285028,New Feature,RESSMB-7278,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 241 (AUG 06 - AUG 19),21600,18000,None
+316693,Improvement,PREDM-1759,jinyan.liu,"P2 - Critical, but workaround exists",Closed,Fixed,Sprint 246 (OCT 15 - OCT 28),7200,10800,None
+316963,Improvement,PREDM-1752,henry.hom,"P2 - Critical, but workaround exists",Closed,Fixed,Sprint 246 (OCT 15 - OCT 28),14400,14400,None
+321744,Improvement,PREDM-1767,henry.hom,P1 - Urgent with no workaround,Resolved,Fixed,Sprint 247 (OCT 29 - NOV 11),14400,18000,None
+317347,Improvement,PREDM-1766,skandh.pathak,"P2 - Critical, but workaround exists",Closed,Fixed,Sprint 247 (OCT 29 - NOV 11),14400,14400,None
+140330,Task,ENGR-1172,chen.liu,P1 - Urgent with no workaround,Open,,2017 Engineering Plan,14400,,
+141659,Improvement,ENGR-660,chen.liu,P1 - Urgent with no workaround,Open,,2017 Engineering Plan,14400,,
+310281,Bug,PLAT-14694,mohamad.arabi,P0 - Blocker,Closed-Verified,Duplicate,Sprint 246 (OCT 15 - OCT 28),0,,No longer applicable
+318052,New Feature,LCI-2736,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 246 (OCT 15 - OCT 28),7200,10800,None
+306798,Improvement,PREDM-1719,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 245 (OCT 01 - OCT 14),14400,21600,None
+318821,Improvement,IO-1037,henry.hom,P1 - Urgent with no workaround,Closed,Fixed,"Sprint 246 (OCT 15 - OCT 28),Sprint 247 (OCT 29 - NOV 11)",10800,3600,None
+313540,Improvement,IO-1106,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 246 (OCT 15 - OCT 28),10800,10800,None
+321865,New Feature,LCI-2748,henry.hom,Unprioritized,Closed,Fixed,Sprint 247 (OCT 29 - NOV 11),7200,7200,None
+315479,New Feature,LCI-2751,henry.hom,Unprioritized,Open,,Sprint 247 (OCT 29 - NOV 11),7200,,None
+109289,Task,ENGR-675,chen.liu,"P2 - Critical, but workaround exists",Open,,2017 Engineering Plan,10800,,
+166800,Bug,ENGR-1214,chen.liu,"P2 - Critical, but workaround exists",Open,,2017 Engineering Plan,14400,,
+109610,Bug,ENGR-880,chen.liu,"P2 - Critical, but workaround exists",Open,,2017 Engineering Plan,,,
+109237,Task,ENGR-572,chen.liu,P1 - Urgent with no workaround,Open,,2017 Engineering Plan,,18000,
+307053,New Feature,IO-972,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 245 (OCT 01 - OCT 14),43200,57600,None
+303880,Improvement,IO-855,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 244 (SEP 17 - SEP 30),21600,27000,None
+301518,Improvement,PREDM-1702,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Done,Sprint 244 (SEP 17 - SEP 30),21600,27000,None
+282346,Improvement,ENGR-2212,mohamad.arabi,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 242 (AUG 20 - SEP 02 ),21600,25200,None
+304909,Improvement,IO-1077,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 245 (OCT 01 - OCT 14),1800,1800,None
+315491,Improvement,PREDM-1757,jinyan.liu,"P2 - Critical, but workaround exists",Closed,Fixed,Sprint 246 (OCT 15 - OCT 28),14400,28800,None
+319802,Improvement,PREDM-1755,skandh.pathak,"P2 - Critical, but workaround exists",Closed-Verified,Fixed,Sprint 246 (OCT 15 - OCT 28),14400,14400,None
+317401,Task,ENGR-2617,henry.hom,Unprioritized,Open,,Sprint 247 (OCT 29 - NOV 11),21600,,None
+280389,Bug,LCI-2614,mohamad.arabi,P0 - Blocker,Closed-Verified,Fixed,Sprint 242 (AUG 20 - SEP 02 ),14400,19800,The cause for this bug was the UIViewLCIFacilityDisaggregation component was using functions namely `$.` methods from a file that was not moved over by components as type migration . The file that was not migrated is: https://github.com/c3-e/c3ui/blob/f8952dfef2d88024bd56b4a5b5deb6d228fe0d39/assets/javascripts/helpers.js
+295570,Improvement,ENGR-2213,chen.liu,P1 - Urgent with no workaround,Closed,Done,"Sprint 243 (SEP 03 - SEP 16),Sprint 244 (SEP 17 - SEP 30)",10800,21600,None
+326088,New Feature,LCI-2743,mohamad.arabi,P1 - Urgent with no workaround,In Progress,,Sprint 247 (OCT 29 - NOV 11),14400,,None
+324803,New Feature,LCI-2738,skandh.pathak,P1 - Urgent with no workaround,In Progress,,Sprint 247 (OCT 29 - NOV 11),10800,,None
+303456,Improvement,PREDM-1722,henry.hom,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 245 (OCT 01 - OCT 14),14400,14400,Data was not present in demo so data did not show up. Added test to ensure that component is working properly.
+303570,Task,PREDM-1743,henry.hom,Unprioritized,Closed-Verified,Fixed,Sprint 245 (OCT 01 - OCT 14),7200,7200,None
+290613,Improvement,LCI-2663,mohamad.arabi,"P2 - Critical, but workaround exists",Closed-Verified,Fixed,Sprint 243 (SEP 03 - SEP 16),10800,10800,None
+304324,Improvement,PREDM-1736,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 245 (OCT 01 - OCT 14),18000,25200,None
+303807,Improvement,PREDM-1735,mohamad.arabi,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 245 (OCT 01 - OCT 14),14400,34200,None
+318048,New Feature,IO-1102,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 246 (OCT 15 - OCT 28),7200,7200,None
+314315,New Feature,IO-1118,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 246 (OCT 15 - OCT 28),10800,10800,None
+315085,New Feature,IO-1115,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 246 (OCT 15 - OCT 28),10800,10800,None
+313699,New Feature,IO-1041,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 246 (OCT 15 - OCT 28),10800,10800,None
+314774,Improvement,IO-1038,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 246 (OCT 15 - OCT 28),14400,14400,None
+316713,Improvement,IO-1099,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 246 (OCT 15 - OCT 28),7200,7200,None
+137773,Bug,TOOLS-3771,chen.liu,"P2 - Critical, but workaround exists",Open,,2017 Engineering Plan,,,
+307903,Improvement,IO-1064,mohamad.arabi,P1 - Urgent with no workaround,Closed,Fixed,Sprint 245 (OCT 01 - OCT 14),1800,1800,None
+308138,Improvement,IO-1065,mohamad.arabi,P1 - Urgent with no workaround,Closed,Fixed,Sprint 245 (OCT 01 - OCT 14),1800,1800,None
+308812,Task,IO-1069,mohamad.arabi,P1 - Urgent with no workaround,Closed,No longer applicable,Sprint 245 (OCT 01 - OCT 14),,,None
+325818,New Feature,IO-1152,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 247 (OCT 29 - NOV 11),18000,21600,None
+322608,New Feature,IO-1039,mohamad.arabi,P1 - Urgent with no workaround,In Review,,Sprint 247 (OCT 29 - NOV 11),10800,7200,None
+322029,New Feature,IO-1114,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 247 (OCT 29 - NOV 11),10800,25200,None
+308357,Bug,BUILD-18376,mohamad.arabi,P0 - Blocker,Closed-Verified,No longer applicable,"Sprint 245 (OCT 01 - OCT 14),Sprint 246 (OCT 15 - OCT 28)",,,None
+268094,Task,UI-4062,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,"Sprint 235 (MAY 14 - MAY 27),Sprint 236 (MAY 28 - JUN 10),Sprint 237 (JUN 11 - JUN 24),Sprint 238 (JUN 25 - JUL 08),Sprint 240 (JUL 23 - AUG 05),Sprint 241 (AUG 06 - AUG 19)",28800,61200,None
+316913,Epic,ENGR-2551,jinyan.liu,"P2 - Critical, but workaround exists",Closed-Verified,Fixed,Sprint 246 (OCT 15 - OCT 28),,,None
+272989,Bug,LCI-2597,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 241 (AUG 06 - AUG 19),21600,21600,"The Project page in energyManagement doesn't work in release/v7.7 either. The Project page is overwritten in c3customer by SDGE, Cisco, Pella, so this problem hasn't been discovered."
+119969,Bug,ENGR-1057,chen.liu,Unprioritized,Open,,2017 Engineering Plan,14400,,
+297823,Improvement,IO-863,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 244 (SEP 17 - SEP 30),14400,14400,None
+298554,Improvement,PREDM-1699,henry.hom,P1 - Urgent with no workaround,Closed-Verified,Fixed,"Sprint 243 (SEP 03 - SEP 16),Sprint 244 (SEP 17 - SEP 30),Sprint 245 (OCT 01 - OCT 14)",43200,14400,None
+287837,Improvement,PREDM-1690,skandh.pathak,P1 - Urgent with no workaround,Closed,Fixed,Sprint 243 (SEP 03 - SEP 16),7200,7200,None
+311152,Improvement,IO-1014,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 245 (OCT 01 - OCT 14),14400,14400,None
+304266,Improvement,IO-1029,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 245 (OCT 01 - OCT 14),14400,14400,None
+137971,Epic,ENGR-1012,chen.liu,P1 - Urgent with no workaround,Open,,2017 Engineering Plan,,,
+140097,Improvement,IO-181,chen.liu,P1 - Urgent with no workaround,Open,,2017 Engineering Plan,,,
+306143,Bug,ENGR-2451,skandh.pathak,P0 - Blocker,Closed-Verified,Fixed,Sprint 245 (OCT 01 - OCT 14),28800,28800,"So far all the failing tests were inside a nested it block which is why they didn't execute. Some tests were failing since they were defined on the wrong type. Others were trying to test metrics that no longer exist (Level1QoSCompositeNode, Level1QoSBranchNode, LocalizedFaultCompositeNode, LocalizedFaultBranchNode). As of now the describe block ""metrics"" has 7 failures and is currently disabled. ENGR-2465 has been created to fix these issues."
+307246,Bug,BUILD-18377,mohamad.arabi,P0 - Blocker,Closed-Verified,No longer applicable,"Sprint 245 (OCT 01 - OCT 14),Sprint 246 (OCT 15 - OCT 28)",,,None
+313296,Bug,BUILD-18647,skandh.pathak,P0 - Blocker,Closed-Verified,Fixed,Sprint 246 (OCT 15 - OCT 28),14400,14400,"the test counted the number of rows in a grid immediately after closing a modal(that deleted an element). Therefore the test would fail if the grid wasn't updated in between the modal closing and skywalker counting the number of rows. I added a waitForAjax() that allows the fetch requests to complete before counting the updated number of rows. Also, i made the selector for table rows more specific so ensure we don't count rows in page-cache div"
+290227,Bug,BUILD-14802,henry.hom,P1 - Urgent with no workaround,Closed-Verified,Fixed,"Sprint 241 (AUG 06 - AUG 19),Sprint 242 (AUG 20 - SEP 02 )",,,Test was fixed in develop branch. Ticket was closed because test is no longer flipping.
+285986,Bug,BUILD-13888,chen.liu,P0 - Blocker,Closed,Fixed,Sprint 241 (AUG 06 - AUG 19),14400,14400,"The issue was that Menu from left panel on the page covered the home link, i.e., on top of home link, and the link was not clickable. I put a fix which is to click ""body"" element before clicking the home link, and verified that it works."
+316440,Epic,ENGR-2544,henry.hom,"P2 - Critical, but workaround exists",To Do,,Sprint 247 (OCT 29 - NOV 11),,,None
+287644,New Feature,RESSMB-7333,chen.liu,P1 - Urgent with no workaround,Closed,Done,Sprint 243 (SEP 03 - SEP 16),14400,32400,None
+295769,New Feature,RESSMB-7335,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,"Sprint 243 (SEP 03 - SEP 16),Sprint 244 (SEP 17 - SEP 30)",14400,14400,None
+276727,Task,BUILD-14062,chen.liu,P0 - Blocker,Closed-Verified,No longer applicable,Sprint 241 (AUG 06 - AUG 19),0,,None
+288947,Bug,BUILD-16647,jinyan.liu,P0 - Blocker,Closed,Duplicate,Sprint 243 (SEP 03 - SEP 16),,,None
+282057,Task,RESSMB-7123,skandh.pathak,"P2 - Critical, but workaround exists",Closed,No longer applicable,Sprint 242 (AUG 20 - SEP 02 ),14400,1800,
+271876,Task,RESSMB-7182,chen.liu,"P2 - Critical, but workaround exists",Closed,Fixed,Sprint 241 (AUG 06 - AUG 19),7200,10800,None
+282100,Task,RESSMB-7271,mohamad.arabi,P1 - Urgent with no workaround,Closed,Fixed,Sprint 242 (AUG 20 - SEP 02 ),18000,7200,None
+276252,Task,RESSMB-7260,chen.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 241 (AUG 06 - AUG 19),14400,39600,None
+313194,Improvement,ENGR-2549,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 246 (OCT 15 - OCT 28),7200,7200,None
+304460,Improvement,ENGR-2437,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 245 (OCT 01 - OCT 14),14400,14400,None
+307256,Bug,BUILD-18380,mohamad.arabi,P0 - Blocker,Closed-Verified,No longer applicable,"Sprint 245 (OCT 01 - OCT 14),Sprint 246 (OCT 15 - OCT 28)",,,None
+321270,New Feature,IO-1140,skandh.pathak,P1 - Urgent with no workaround,Resolved,Fixed,Sprint 247 (OCT 29 - NOV 11),21600,21600,None
+300113,Improvement,IO-946,mohamad.arabi,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 244 (SEP 17 - SEP 30),14400,14400,None
+325778,Improvement,IO-1035,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 247 (OCT 29 - NOV 11),10800,3600,None
+290431,Bug,LCI-2600,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 242 (AUG 20 - SEP 02 ),36000,25200,This error was caused to a combination of 1. incorrect config in c3ui file 2. logic error in the ui component (javascript)
+318755,Bug,BUILD-19733,henry.hom,P0 - Blocker,Closed,Fixed,"Sprint 246 (OCT 15 - OCT 28),Sprint 247 (OCT 29 - NOV 11)",14400,10800,"Forced renomalization on PointPhysicalMeasurementSeries. The call was present before, however it was not being forced which could cause it to fail occasionally."
+289055,Task,ENGR-2307,henry.hom,Unprioritized,Closed-Verified,Fixed,Sprint 243 (SEP 03 - SEP 16),28800,28800,None
+312143,Bug,BUILD-18466,skandh.pathak,P0 - Blocker,Closed-Verified,Cannot Reproduce,"Sprint 245 (OCT 01 - OCT 14),Sprint 246 (OCT 15 - OCT 28)",14400,14400,"From the error message it looks like the stored calc field resources on BillingAccount didn't get refreshed when the resource on ServicePoint was updated which caused the test to fail. I ran the test locally and monitored the invalidation queues (CalcFieldQueue and MetricDepQueue), everything is working as expected. I then ran the test 100 times using jasmine test runner and it passed every time. Closing it as could not reproduce."
+292451,Bug,BUILD-15592,henry.hom,P0 - Blocker,Closed-Verified,Fixed,Sprint 242 (AUG 20 - SEP 02 ),14400,14400,"Due to Schema update, test had been modified until update was finished. Once completed, test began to get data back again. We had to reenable portion that was disabled and removed portion of code that was put in as a temporary measure until service was up and running again."
+311268,Bug,BUILD-18385,mohamad.arabi,P0 - Blocker,Closed-Verified,No longer applicable,"Sprint 245 (OCT 01 - OCT 14),Sprint 246 (OCT 15 - OCT 28)",,,None
+322248,Bug,ENGR-2476,mohamad.arabi,P0 - Blocker,Closed,Fixed,Sprint 247 (OCT 29 - NOV 11),9000,12000,"There were 2 issues: The nested it blocks were never running and were discovered when Jasmine was upgraded. The other issue is the it blocks if they were running they would be failing, due to error in the path of the metric being tested. Fixed metric path and un-nested the it blocks."
+322298,Outage,IO-1132,jinyan.liu,P0 - Blocker,Closed-Verified,Fixed,Sprint 247 (OCT 29 - NOV 11),10800,10800,None
+328572,Epic,ENGR-2552,skandh.pathak,P1 - Urgent with no workaround,To Do,,"Sprint 246 (OCT 15 - OCT 28),Sprint 247 (OCT 29 - NOV 11)",,,None
+275115,Task,BUILD-14813,chen.liu,P0 - Blocker,Closed,Deferred,Sprint 241 (AUG 06 - AUG 19),21600,36000,None
+288353,New Feature,RESSMB-7330,skandh.pathak,Unprioritized,Closed-Verified,No longer applicable,Sprint 243 (SEP 03 - SEP 16),0,,None
+294457,Improvement,LCI-2686,henry.hom,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 244 (SEP 17 - SEP 30),3600,3600,None
+300592,Bug,IO-987,mohamad.arabi,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 244 (SEP 17 - SEP 30),50400,51600,The metric didn't filter on data that is only after LastNetInventoryUpdate. Fixed metric by returning null for dates before LastNetInventoryUpdate.
+283645,New Feature,RESSMB-7282,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 241 (AUG 06 - AUG 19),21600,16200,None
+272433,New Feature,RESSMB-7288,henry.hom,P1 - Urgent with no workaround,Closed-Verified,No longer applicable,Sprint 241 (AUG 06 - AUG 19),0,,None
+141692,Task,TOOLS-3755,chen.liu,P1 - Urgent with no workaround,Open,,2017 Engineering Plan,10800,,
+312137,Improvement,ENGR-2443,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,"Sprint 245 (OCT 01 - OCT 14),Sprint 246 (OCT 15 - OCT 28)",12600,30600,None
+295239,Bug,EXC-15393,jinyan.liu,"P2 - Critical, but workaround exists",Closed-Verified,Fixed,Sprint 244 (SEP 17 - SEP 30),14400,14400,None
+304387,Bug,PREDM-1745,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 245 (OCT 01 - OCT 14),18000,18000,The tests were disabled since the ui components being tested in those skywalker tests were not fixed yet. The tests have been enabled now that those components have been fixed. test_dashboardPage and test_workOrdersPage fixed in [https://github.com/c3-e/c3base/pull/7603]. test_RiskPredictionPage fixed in [https://github.com/c3-e/c3base/pull/7598]
+309612,Improvement,PREDM-1727,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 245 (OCT 01 - OCT 14),14400,14400,The chart was not showing up since it was configured to show avg risk scores of only parent assets and we didn't have any parent assets with a non-empty risk score. The fix was to re-define a field on BaseAsset called avgRiskScore as a stored calc equal to the average of latest risk scores of all the children of that {@link BaseAsset}. For assets with no children it is 0.
+316855,Improvement,IO-1111,mohamad.arabi,P1 - Urgent with no workaround,Resolved,Fixed,"Sprint 246 (OCT 15 - OCT 28),Sprint 247 (OCT 29 - NOV 11)",14400,9000,None
+322449,Improvement,LCI-2757,jinyan.liu,P1 - Urgent with no workaround,In Progress,,Sprint 247 (OCT 29 - NOV 11),14400,7200,None
+284130,New Feature,DEV-2356,jinyan.liu,P1 - Urgent with no workaround,Resolved,Fixed,"Sprint 242 (AUG 20 - SEP 02 ),Sprint 235 (MAY 14 - MAY 27),Sprint 236 (MAY 28 - JUN 10),Sprint 237 (JUN 11 - JUN 24),Sprint 238 (JUN 25 - JUL 08),Sprint 239 (JUL 09 - JUL 22),Sprint 240 (JUL 23 - AUG 05),Sprint 241 (AUG 06 - AUG 19)",21600,25200,None
+282714,New Feature,RESSMB-7284,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 241 (AUG 06 - AUG 19),21600,14400,None
+290391,Bug,RESSMB-7321,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 242 (AUG 20 - SEP 02 ),7200,7200,This failure was caused due to a timeout. increasing the wait time for setup fixed this failure.
+269009,New Feature,RESSMB-7266,henry.hom,P1 - Urgent with no workaround,Closed-Verified,No longer applicable,Sprint 241 (AUG 06 - AUG 19),21600,3600,None
+288535,Bug,LCI-2616,mohamad.arabi,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 243 (SEP 03 - SEP 16),28800,32400,"The upload feature, namely the `UIActionShowContentModal ` ui component had no test coverage. It was failing due to components as type migration, but was never caught in any tests. issue: component was being initialized using old ui lifecycle."
+316101,New Feature,PREDM-1764,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 246 (OCT 15 - OCT 28),21600,25200,None
+321996,Improvement,ENGR-2612,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 247 (OCT 29 - NOV 11),28800,39600,None
+315871,Bug,EXC-15729,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 246 (OCT 15 - OCT 28),3600,3600,duplicate types were causing the error as mentioned in the description. i renamed both the types to fix it.
+293093,Task,ENGR-2386,chen.liu,P1 - Urgent with no workaround,Closed,Done,Sprint 244 (SEP 17 - SEP 30),21600,25200,None
+299107,Improvement,ENGR-2442,chen.liu,P1 - Urgent with no workaround,Closed,Done,Sprint 245 (OCT 01 - OCT 14),10800,10800,None
+297810,Improvement,ENGR-2329,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 244 (SEP 17 - SEP 30),14400,10800,None
+322255,New Feature,LCI-2744,mohamad.arabi,P1 - Urgent with no workaround,Closed,Fixed,Sprint 247 (OCT 29 - NOV 11),3600,7200,None
+297059,New Feature,ENGR-2270,mohamad.arabi,P1 - Urgent with no workaround,Closed-Verified,Fixed,"Sprint 242 (AUG 20 - SEP 02 ),Sprint 244 (SEP 17 - SEP 30)",14400,10200,None
+303957,Improvement,PREDM-1737,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 245 (OCT 01 - OCT 14),14400,14400,None
+305471,Bug,PREDM-1718,mohamad.arabi,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 245 (OCT 01 - OCT 14),14400,43200,"There was no filter on the data scource to include only assets that have a risk score. The map was coloring the map markers based on risk score. To solve, added a a filter to datascource"
+317434,Improvement,IO-1034,henry.hom,P1 - Urgent with no workaround,Closed,Fixed,"Sprint 246 (OCT 15 - OCT 28),Sprint 247 (OCT 29 - NOV 11)",14400,28800,None
+316389,Improvement,IO-1084,mohamad.arabi,P1 - Urgent with no workaround,Resolved,Fixed,"Sprint 246 (OCT 15 - OCT 28),Sprint 247 (OCT 29 - NOV 11)",14400,20700,None
+327812,New Feature,IO-1049,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 246 (OCT 15 - OCT 28),14400,10800,None
+320138,Improvement,IO-1110,mohamad.arabi,P1 - Urgent with no workaround,Resolved,Fixed,"Sprint 246 (OCT 15 - OCT 28),Sprint 247 (OCT 29 - NOV 11)",7200,10800,None
+308638,New Feature,IO-971,henry.hom,P1 - Urgent with no workaround,Closed,Fixed,Sprint 245 (OCT 01 - OCT 14),28800,57600,None
+318962,New Feature,ENGR-2539,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 246 (OCT 15 - OCT 28),10800,7200,None
+304346,Improvement,IO-1091,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 245 (OCT 01 - OCT 14),1800,1800,None
+308358,Improvement,IO-1068,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 245 (OCT 01 - OCT 14),1800,1800,None
+304870,Improvement,IO-1081,henry.hom,P1 - Urgent with no workaround,Closed,Fixed,Sprint 245 (OCT 01 - OCT 14),1200,1200,None
+310302,Improvement,IO-1067,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 245 (OCT 01 - OCT 14),1800,1800,None
+138398,Epic,ENGR-1367,chen.liu,P1 - Urgent with no workaround,Closed,Duplicate,2017 Engineering Plan,,,
+145108,Improvement,ENGR-1402,chen.liu,P1 - Urgent with no workaround,Open,,2017 Engineering Plan,,,
+281804,Task,RESSMB-7264,mohamad.arabi,P1 - Urgent with no workaround,Closed,Fixed,Sprint 242 (AUG 20 - SEP 02 ),18000,41400,None
+317431,New Feature,LCI-2752,henry.hom,Unprioritized,Open,,Sprint 247 (OCT 29 - NOV 11),7200,,None
+292262,Improvement,LCI-2596,jinyan.liu,"P2 - Critical, but workaround exists",Closed-Verified,Fixed,Sprint 243 (SEP 03 - SEP 16),28800,28800,None
+311906,New Feature,ENGR-2537,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 246 (OCT 15 - OCT 28),3600,3600,None
+289115,Improvement,PREDM-1706,skandh.pathak,P1 - Urgent with no workaround,Closed,Fixed,Sprint 243 (SEP 03 - SEP 16),57600,64800,None
+306105,Improvement,IO-1083,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 245 (OCT 01 - OCT 14),14400,14400,None
+303587,Task,IO-1072,mohamad.arabi,P1 - Urgent with no workaround,Closed,No longer applicable,Sprint 245 (OCT 01 - OCT 14),,,None
+297540,Improvement,ENGR-2382,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 244 (SEP 17 - SEP 30),14400,7200,None
+133885,Epic,ENGR-1304,chen.liu,P1 - Urgent with no workaround,Open,,2017 Engineering Plan,,,
+272044,Task,RESSMB-7262,chen.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 241 (AUG 06 - AUG 19),18000,1800,None
+318012,Improvement,ENGR-2523,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 246 (OCT 15 - OCT 28),10800,3600,None
+290458,Task,RESSMB-7257,henry.hom,P1 - Urgent with no workaround,Closed-Verified,Fixed,"Sprint 242 (AUG 20 - SEP 02 ),Sprint 243 (SEP 03 - SEP 16)",14400,14400,None
+283596,Improvement,RESSMB-7313,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 242 (AUG 20 - SEP 02 ),25200,10800,None
+273077,Task,BUILD-14468,chen.liu,P0 - Blocker,Closed-Verified,Done,Sprint 241 (AUG 06 - AUG 19),7200,10800,None
+286139,Bug,BUILD-16338,chen.liu,P0 - Blocker,Closed,Fixed,Sprint 243 (SEP 03 - SEP 16),,3600,This flipper was caused by the fact that the element was not clickable because it was obscured by menu element. The fix is to click the position close to bottom-right corner of the element.
+284471,New Feature,TRAIN-428,jinyan.liu,P0 - Blocker,Closed-Verified,Fixed,Sprint 242 (AUG 20 - SEP 02 ),28800,32400,None
+287819,Task,TRAIN-417,jinyan.liu,Unprioritized,Closed,Fixed,Sprint 241 (AUG 06 - AUG 19),7200,7200,None
+294553,Task,ENGR-2378,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 244 (SEP 17 - SEP 30),7200,7200,None
+324041,Improvement,IO-1107,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 247 (OCT 29 - NOV 11),10800,10800,None
+276708,Task,BUILD-14061,mohamad.arabi,P0 - Blocker,Closed-Verified,Fixed,Sprint 241 (AUG 06 - AUG 19),14400,9000,The test did not fail when running 15 jenkins builds on it. No changes made
+321815,Improvement,IO-1126,mohamad.arabi,P1 - Urgent with no workaround,Closed,Fixed,Sprint 247 (OCT 29 - NOV 11),7200,8400,None
+318040,Improvement,IO-1131,mohamad.arabi,Unprioritized,Resolved,Fixed,Sprint 247 (OCT 29 - NOV 11),14400,9000,None
+275102,Task,LCI-2593,mohamad.arabi,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 241 (AUG 06 - AUG 19),10800,10800,None
+319472,Bug,BUILD-18271,skandh.pathak,P0 - Blocker,Closed-Verified,Fixed,Sprint 246 (OCT 15 - OCT 28),14400,39600,"These failures are due to change in a 3rd-party Api. We get the following error message when we invoke `EnergyStarEngine.getEnergyStarRating()`. There is no identified weather station.<b>Problem</b>: There is no weather station assigned to this property. This means the ENERGY STAR Score and all weather-normalized metrics cannot be calculated.<br/><br/><b>What to do</b>:<ul><li>If the property is in the United States or Canada, <a href=""https://portfoliomanager.energystar.gov/pm/property/edit/17095778"">check your postal code</a> to ensure you have entered it correctly. If your postal code is correct then there may be a problem in Portfolio Manager (see <a href=""https://portfoliomanager.zendesk.com/hc/en-us/articles/211027308"" target=""_blank"">this FAQ for more information</a>).</li><li>If the property is in another country,<a href=""https://portfoliomanager.energystar.gov/pm/property/editUtilityAndWeather/17095778"">select an international weather station</a>.</li></ul> update: wrote the following email to energystar I noticed that since the last few days the api calls to get energystar rating for a given property are not working correctly if we hit the TEST environment (""/wstest""). The same api call works correctly if we make the call to the LIVE environment (""/ws""). Specifically, we get the following error messages Request: URL: https://portfoliomanager.energystar.gov/wstest/property/17097660/metrics?year=2011&month=1 Headers: {""PM-Metrics"":""score"",""Content-Type"":""application/xml; charset=UTF-8"",""Authorization"":} Response: {""type"":""HttpResponse"",""request"":{""method"":""GET"",""uri"":""https://portfoliomanager.energystar.gov/wstest/property/17097660/metrics?year=2011&month=1"",""headers"":{""PM-Metrics"":""score"",""Content-Type"":""application/xml; charset=UTF-8"",""Authorization"":""Basic YzMtY2FyYm9uOkMjQ2FyYm9uMDAx""}},""statusCode"":200,""reasonPhrase"":""OK"",""httpVersion"":""HTTP/1.1"",""headers"":{""Server"":""nginx"",""Date"":""Wed, 24 Oct 2018 21:15:57 GMT"",""Content-Type"":""application/xml;charset=UTF-8"",""Transfer-Encoding"":""chunked"",""Connection"":""keep-alive"",""Vary"":""Accept-Encoding"",""Strict-Transport-Security"":""max-age=31536000; includeSubDomains"",""Content-Encoding"":""gzip""},""entity"":""""} The results of /property/17097660/reasonsForNoScore are shown below Request: URL: https://portfoliomanager.energystar.gov/wstest/property/17097660/reasonsForNoScore?year=2011&month=1 Headers: {""PM-Metrics"":""score"",""Content-Type"":""application/xml; charset=UTF-8"",""Authorization"":} Response: {""type"":""HttpResponse"",""statusCode"":200,""reasonPhrase"":""OK"",""httpVersion"":""HTTP/1.1"",""headers"":{""Server"":""nginx"",""Date"":""Wed, 24 Oct 2018 21:15:57 GMT"",""Content-Type"":""application/xml;charset=UTF-8"",""Transfer-Encoding"":""chunked"",""Connection"":""keep-alive"",""Vary"":""Accept-Encoding"",""Strict-Transport-Security"":""max-age=31536000; includeSubDomains"",""Content-Encoding"":""gzip""},""entity"":""There is no identified weather station.<b>Problem</b>: There is no weather station assigned to this property. This means the ENERGY STAR Score and all weather-normalized metrics cannot be calculated.<br/><br/><b>What to do</b>:<ul><li>If the property is in the United States or Canada, <a href=\""https://portfoliomanager.energystar.gov/pm/property/edit/17097660\"">check your postal code</a> to ensure you have entered it correctly. If your postal code is correct then there may be a problem in Portfolio Manager (see <a href=\""https://portfoliomanager.zendesk.com/hc/en-us/articles/211027308\"" target=\""_blank\"">this FAQ for more information</a>).</li><li>If the property is in another country,<a href=\""https://portfoliomanager.energystar.gov/pm/property/editUtilityAndWeather/17097660\"">select an international weather station</a>.</li></ul>""} Is this expected? Has anything changed in the TEST environment? Are there any changelogs or documents I can refer to know more about these changes? I went through the release notes but I could not find anything relevant. Thank you. update: just got the following response. looks like the issue is now fixed. reenabled disabled tests. Skandh, Thanks for reaching out. We reviewed the information submitted and escalated this ticket to our technical team. I heard from the team today that the issue has now been resolved. Please let us know if you have any additional questions or concerns. Best, Anthony Albano ENERGY STAR Support"
+311182,Bug,BUILD-17283,skandh.pathak,P0 - Blocker,Closed-Verified,No longer applicable,Sprint 245 (OCT 01 - OCT 14),14400,14400,The test passed 100 times consecutively in my local env. Closing this as no longer applicable since could not reproduce this bug.
+302743,Bug,BUILD-17729,jinyan.liu,P0 - Blocker,Closed-Verified,Fixed,Sprint 245 (OCT 01 - OCT 14),1800,1800,Jasmine version upgrade.
+288397,Bug,BUILD-14321,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 241 (AUG 06 - AUG 19),10800,10800,no longer applicable since these were already fixed in BUILD_-13527. this test failed before those changes were merged and hasn’t failed since.
+304115,Bug,BUILD-16825,mohamad.arabi,P0 - Blocker,Closed-Verified,No longer applicable,Sprint 245 (OCT 01 - OCT 14),0,,"Closed as no longer applicable by the server bot, due to it not flippong in a long time."
+308714,Bug,BUILD-18634,mohamad.arabi,P0 - Blocker,Closed-Verified,No longer applicable,Sprint 246 (OCT 15 - OCT 28),,,None
+298581,Task,ENGR-2352,chen.liu,P1 - Urgent with no workaround,Closed,Done,Sprint 244 (SEP 17 - SEP 30),10800,7200,None
+290792,Bug,BUILD-16339,chen.liu,P0 - Blocker,Closed,Fixed,Sprint 243 (SEP 03 - SEP 16),,3600,The test was flipping because it was running against an undetermined webpage. I put the fix which is to let the test run against local server that we have control.
+292445,Task,LCI-2657,henry.hom,P0 - Blocker,Closed-Verified,Fixed,"Sprint 243 (SEP 03 - SEP 16),Sprint 244 (SEP 17 - SEP 30)",43200,43200,None
+321894,New Feature,IO-1138,henry.hom,P1 - Urgent with no workaround,Resolved,Fixed,Sprint 247 (OCT 29 - NOV 11),7200,7200,None
+317256,New Feature,IO-1040,mohamad.arabi,P1 - Urgent with no workaround,Resolved,Fixed,Sprint 247 (OCT 29 - NOV 11),10800,3600,None
+321933,Improvement,IO-857,henry.hom,P1 - Urgent with no workaround,Resolved,Fixed,Sprint 247 (OCT 29 - NOV 11),10800,10800,None
+322375,New Feature,IO-1133,jinyan.liu,P1 - Urgent with no workaround,In Progress,,Sprint 247 (OCT 29 - NOV 11),10800,3600,None
+322297,Improvement,IO-1146,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 247 (OCT 29 - NOV 11),10800,3600,None
+308050,Bug,BUILD-18463,mohamad.arabi,P0 - Blocker,Closed-Verified,No longer applicable,"Sprint 245 (OCT 01 - OCT 14),Sprint 246 (OCT 15 - OCT 28)",,,None
+276356,Improvement,ENGR-2247,skandh.pathak,Unprioritized,Closed-Verified,Fixed,Sprint 242 (AUG 20 - SEP 02 ),600,600,None
+305341,Bug,BUILD-17292,jinyan.liu,P0 - Blocker,Closed-Verified,Fixed,Sprint 245 (OCT 01 - OCT 14),14400,14400,"PLAT-14583 is created for the issue. The problem is when we remove data during the invocation of the analytics, the analytics queue will throw error. The temporary fix is to add a waitForSetup after data creation to wait for all queues to finish, then teardown data."
+281239,Bug,BUILD-14753,mohamad.arabi,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 242 (AUG 20 - SEP 02 ),14400,7200,The skywalker test would set a value in the ui and test the result without giving time for request to finish. Added wait for requests to finish.
+285794,New Feature,RESSMB-7323,mohamad.arabi,P1 - Urgent with no workaround,Closed-Verified,No longer applicable,Sprint 243 (SEP 03 - SEP 16),0,,None
+301669,Task,TRAIN-426,jinyan.liu,P0 - Blocker,Closed-Verified,Fixed,Sprint 241 (AUG 06 - AUG 19),10800,10800,None
+322535,Bug,BUILD-17985,jinyan.liu,P0 - Blocker,Closed-Verified,Fixed,"Sprint 245 (OCT 01 - OCT 14),Sprint 247 (OCT 29 - NOV 11)",21600,14400,None
+322679,Bug,BUILD-17983,mohamad.arabi,P0 - Blocker,Closed,Fixed,Sprint 247 (OCT 29 - NOV 11),14400,18000,The calc fields are not getting invalidated on BillingAccount before calling waitForSetup. Added sleep for a second to avoid race condition.
+316470,Epic,ENGR-2469,henry.hom,"P2 - Critical, but workaround exists",To Do,,Sprint 247 (OCT 29 - NOV 11),,,None
+294563,New Feature,LCI-2658,skandh.pathak,Unprioritized,Closed-Verified,Fixed,"Sprint 243 (SEP 03 - SEP 16),Sprint 244 (SEP 17 - SEP 30)",7200,14400,None
+298051,Improvement,IO-781,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,"Sprint 241 (AUG 06 - AUG 19),Sprint 242 (AUG 20 - SEP 02 ),Sprint 244 (SEP 17 - SEP 30)",21600,72000,None
+293775,Improvement,IO-931,jinyan.liu,"P2 - Critical, but workaround exists",Closed,Fixed,Sprint 244 (SEP 17 - SEP 30),14400,14400,None
+294221,Bug,IO-854,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 244 (SEP 17 - SEP 30),7200,7200,"It seems like the error came about because of some instances in which actualItemsReceived was null, which was causing the subtraction of ""latestQuantity - actualItemsReceived.value"" to throw an error"
+324248,Bug,BUILD-18489,chen.liu,P0 - Blocker,Closed,No longer applicable,"Sprint 245 (OCT 01 - OCT 14),Sprint 247 (OCT 29 - NOV 11)",21600,5400,no longer applicable
+319617,Bug,BUILD-19926,henry.hom,P0 - Blocker,In Progress,,Sprint 247 (OCT 29 - NOV 11),14400,3600,"We were unable to load google apis in UIBootloader.js. At this point this may not happen too often but this is a failures on google servers, and not necessarily an apps failure."
+313216,Improvement,PREDM-1753,skandh.pathak,"P2 - Critical, but workaround exists",Closed-Verified,Fixed,Sprint 246 (OCT 15 - OCT 28),14400,14400,None
+324451,Improvement,IO-859,jinyan.liu,P1 - Urgent with no workaround,Specification Complete,,Sprint 244 (SEP 17 - SEP 30),21600,21600,None
+282129,New Feature,RESSMB-7277,henry.hom,P1 - Urgent with no workaround,Closed-Verified,Fixed,"Sprint 242 (AUG 20 - SEP 02 ),Sprint 241 (AUG 06 - AUG 19)",21600,21600,None
+322457,Bug,PREDM-1771,mohamad.arabi,P1 - Urgent with no workaround,Resolved,Fixed,Sprint 247 (OCT 29 - NOV 11),21600,18600,None
+298634,Task,ENGR-2385,skandh.pathak,"P2 - Critical, but workaround exists",Closed-Verified,Fixed,Sprint 244 (SEP 17 - SEP 30),28800,25200,None
+321154,Task,ENGR-2545,skandh.pathak,P1 - Urgent with no workaround,Closed,Fixed,Sprint 247 (OCT 29 - NOV 11),21600,21600,None
+322635,Improvement,ENGR-2709,skandh.pathak,P1 - Urgent with no workaround,In Review,,Sprint 247 (OCT 29 - NOV 11),18000,,None
+278358,Bug,EXC-15396,henry.hom,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 241 (AUG 06 - AUG 19),14400,18000,UIActionShowModalChangeStatus.afterShow() in the uiFramework package needed to be updated. The selectors that the function was referencing was incorrect and needed to be changed. This was most likely a side effect of the Component as Types migration. Test has been created and elements have been updated.
+269070,Bug,LCI-2560,mohamad.arabi,P0 - Blocker,Closed-Verified,Fixed,Sprint 241 (AUG 06 - AUG 19),14400,19800,The metrics used on this page were moved to enterpriseAbatement package. The metrics that should have been used were not updated on the c3ui file for this page. The datasource used for the projects was not correctly defined. Project was fetching based on a field impact which was a field on EnterpriseProject. Project has an equivalent field facility which the datasource needed to use instead of impact
+321789,Improvement,LCI-2756,skandh.pathak,P1 - Urgent with no workaround,Resolved,Fixed,Sprint 247 (OCT 29 - NOV 11),14400,18000,None
+321174,Improvement,LCI-2759,skandh.pathak,P1 - Urgent with no workaround,Closed,Fixed,Sprint 247 (OCT 29 - NOV 11),3600,3600,None
+315210,Improvement,LCI-2758,jinyan.liu,P1 - Urgent with no workaround,Open,,Sprint 247 (OCT 29 - NOV 11),21600,,None
+282436,New Feature,RESSMB-7275,henry.hom,P1 - Urgent with no workaround,Closed-Verified,Fixed,"Sprint 242 (AUG 20 - SEP 02 ),Sprint 241 (AUG 06 - AUG 19)",28800,28800,None
+282139,New Feature,RESSMB-7281,henry.hom,P1 - Urgent with no workaround,Closed-Verified,Fixed,"Sprint 242 (AUG 20 - SEP 02 ),Sprint 241 (AUG 06 - AUG 19)",21600,21600,None
+284968,New Feature,RESSMB-7283,henry.hom,P1 - Urgent with no workaround,Closed-Verified,Fixed,"Sprint 242 (AUG 20 - SEP 02 ),Sprint 241 (AUG 06 - AUG 19)",21600,21600,None
+285018,New Feature,RESSMB-7292,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,"Sprint 242 (AUG 20 - SEP 02 ),Sprint 241 (AUG 06 - AUG 19)",14400,14400,None
+313559,Bug,PREDM-1746,henry.hom,"P2 - Critical, but workaround exists",Closed,Fixed,Sprint 246 (OCT 15 - OCT 28),10800,10800,None
+322407,Bug,PREDM-1770,mohamad.arabi,"P2 - Critical, but workaround exists",Resolved,Fixed,Sprint 247 (OCT 29 - NOV 11),28800,27000,None
+310644,Task,ENGR-2172,skandh.pathak,"P2 - Critical, but workaround exists",Closed-Verified,Fixed,Sprint 245 (OCT 01 - OCT 14),21600,28800,None
+272018,New Feature,RESSMB-7289,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,No longer applicable,Sprint 241 (AUG 06 - AUG 19),21600,,None
+268966,New Feature,RESSMB-7291,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,No longer applicable,Sprint 241 (AUG 06 - AUG 19),0,,None
+284811,Improvement,LCI-2603,henry.hom,Unprioritized,Closed-Verified,Fixed,Sprint 242 (AUG 20 - SEP 02 ),28800,28800,None
+283615,New Feature,RESSMB-7274,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,"Sprint 242 (AUG 20 - SEP 02 ),Sprint 241 (AUG 06 - AUG 19)",28800,28800,None
+326378,Bug,EXC-15742,chen.liu,P1 - Urgent with no workaround,In Progress,,Sprint 247 (OCT 29 - NOV 11),28800,18000,None
+313967,Improvement,PREDM-1756,henry.hom,"P2 - Critical, but workaround exists",Closed,Fixed,Sprint 246 (OCT 15 - OCT 28),3600,3600,None
+140871,Task,OP-6325,chen.liu,P1 - Urgent with no workaround,Open,,2017 Engineering Plan,14400,,
+321559,New Feature,ENGR-2616,jinyan.liu,P1 - Urgent with no workaround,In Review,,Sprint 247 (OCT 29 - NOV 11),3600,3600,None
+286208,Improvement,ENGR-2185,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 242 (AUG 20 - SEP 02 ),28800,28800,None
+290911,Improvement,IO-959,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 243 (SEP 03 - SEP 16),10800,7200,None
+303389,Bug,PREDM-1721,chen.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 245 (OCT 01 - OCT 14),18000,25200,"The OverallHealthScore tile on Asset Monitoring page is sharing same data source as the OverallHealthScore tile on Dashboard page. On dashboard page, the data source is updated when aggregation is selected, but when we reload Asset monitoring page, the data source is not updated, that is why it shows no data in the chart. I've created a new data source for Asset Monitoring page, and update the data source when monitoring page is loaded."
+305431,Improvement,PREDM-1728,henry.hom,Unprioritized,Closed-Verified,No longer applicable,Sprint 245 (OCT 01 - OCT 14),14400,1800,None
+304315,Improvement,PREDM-1731,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 245 (OCT 01 - OCT 14),14400,14400,None
+321542,New Feature,IO-1042,mohamad.arabi,P1 - Urgent with no workaround,Resolved,Fixed,"Sprint 246 (OCT 15 - OCT 28),Sprint 247 (OCT 29 - NOV 11)",14400,86400,None
+316481,New Feature,IO-1026,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 246 (OCT 15 - OCT 28),14400,46800,None
+321580,New Feature,IO-1050,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 246 (OCT 15 - OCT 28),14400,10800,None
+313939,Improvement,IO-993,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 246 (OCT 15 - OCT 28),18000,25200,None
+303817,Task,PREDM-1740,mohamad.arabi,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 245 (OCT 01 - OCT 14),14400,9000,None
+305067,Improvement,PREDM-1717,mohamad.arabi,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 245 (OCT 01 - OCT 14),14400,16200,"There was no filter on the data scource to include only assets that have a risk score. The map was coloring the map markers based on risk score. To solve, added a a filter to datascource"
+307108,Bug,PREDM-1723,henry.hom,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 245 (OCT 01 - OCT 14),14400,14400,"Work Order Status was not matching what UIViewProgressFlow component was looking for. Once this was synced, it worked."
+316499,New Feature,IO-1059,mohamad.arabi,P1 - Urgent with no workaround,Resolved,Fixed,"Sprint 246 (OCT 15 - OCT 28),Sprint 247 (OCT 29 - NOV 11)",14400,19800,None
+300678,Improvement,PREDM-1700,mohamad.arabi,P1 - Urgent with no workaround,Closed-Verified,Fixed,"Sprint 243 (SEP 03 - SEP 16),Sprint 244 (SEP 17 - SEP 30)",10800,10800,None
+303162,Improvement,PREDM-1710,mohamad.arabi,P1 - Urgent with no workaround,Closed-Verified,Fixed,"Sprint 243 (SEP 03 - SEP 16),Sprint 244 (SEP 17 - SEP 30)",28800,28800,None
+310332,New Feature,IO-1024,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 245 (OCT 01 - OCT 14),10800,10800,None
+307772,Improvement,IO-1032,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 245 (OCT 01 - OCT 14),14400,10800,None
+310422,Improvement,IO-1028,jinyan.liu,"P2 - Critical, but workaround exists",Closed,Fixed,Sprint 245 (OCT 01 - OCT 14),3600,3600,None
+308683,Improvement,ENGR-2380,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 245 (OCT 01 - OCT 14),14400,14400,None
+292772,Task,TRAIN-418,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 241 (AUG 06 - AUG 19),7200,7200,None
+324112,Improvement,IO-1145,mohamad.arabi,P1 - Urgent with no workaround,Resolved,Fixed,Sprint 247 (OCT 29 - NOV 11),7200,5400,None
+322567,Improvement,IO-1147,henry.hom,P1 - Urgent with no workaround,In Review,,Sprint 247 (OCT 29 - NOV 11),28800,28800,None
+273230,Bug,BUILD-14898,henry.hom,P0 - Blocker,Closed-Verified,Duplicate,Sprint 241 (AUG 06 - AUG 19),,,None
+268089,Task,LCI-2589,skandh.pathak,Unprioritized,Closed-Verified,Fixed,Sprint 241 (AUG 06 - AUG 19),18000,10800,None
+312979,Bug,ENGR-2480,mohamad.arabi,P0 - Blocker,Closed,Fixed,Sprint 246 (OCT 15 - OCT 28),1800,2400,"There was a nested it block inside another in the test. After jasmine upgrade, these nested it blocks started failing."
+271169,Bug,BUILD-10664,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,No longer applicable,Sprint 241 (AUG 06 - AUG 19),,,None
+286864,Bug,BUILD-13887,jinyan.liu,P1 - Urgent with no workaround,Closed,No longer applicable,Sprint 242 (AUG 20 - SEP 02 ),0,,None
+286246,Bug,BUILD-10375,chen.liu,P0 - Blocker,Closed,Fixed,"Sprint 236 (MAY 28 - JUN 10),Sprint 241 (AUG 06 - AUG 19)",14400,3600,This was related to PLAT-12135 that normalization fails silently sometimes. We have put a workaround to address the flipper which was to manually do normalization in the test.
+324953,New Feature,LCI-2753,henry.hom,Unprioritized,Closed,Fixed,Sprint 247 (OCT 29 - NOV 11),7200,7200,None
+319578,New Feature,LCI-2735,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 246 (OCT 15 - OCT 28),10800,,None
+290423,Improvement,ENGR-2317,mohamad.arabi,P1 - Urgent with no workaround,Closed-Verified,No longer applicable,Sprint 243 (SEP 03 - SEP 16),0,,None
+304726,New Feature,IO-942,henry.hom,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 245 (OCT 01 - OCT 14),21600,21600,None
+304760,New Feature,IO-1093,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 245 (OCT 01 - OCT 14),14400,28800,None
+304296,New Feature,IO-1060,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 245 (OCT 01 - OCT 14),3600,3600,None
+304820,Improvement,IO-1078,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 245 (OCT 01 - OCT 14),1800,1800,None
+303316,New Feature,ENGR-2398,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 245 (OCT 01 - OCT 14),10800,10800,None
+135543,Epic,ENGR-655,chen.liu,P1 - Urgent with no workaround,Open,,2017 Engineering Plan,,,
+284927,Task,RESSMB-7268,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 242 (AUG 20 - SEP 02 ),21600,14400,None
+286768,Task,RESSMB-7240,mohamad.arabi,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 243 (SEP 03 - SEP 16),43200,50400,None
+288162,Task,RESSMB-7272,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 242 (AUG 20 - SEP 02 ),18000,7200,None
+278467,Task,RESSMB-7256,chen.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 242 (AUG 20 - SEP 02 ),14400,2700,None
+275958,Bug,BUILD-14828,henry.hom,P0 - Blocker,Closed-Verified,No longer applicable,Sprint 241 (AUG 06 - AUG 19),28800,14400,None
+320902,New Feature,LCI-2746,chen.liu,P1 - Urgent with no workaround,Open,,Sprint 247 (OCT 29 - NOV 11),28800,,None
+297440,New Feature,ENGR-2384,mohamad.arabi,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 244 (SEP 17 - SEP 30),10800,10800,None
+303170,Bug,BUILD-16797,henry.hom,P0 - Blocker,Closed-Verified,Fixed,Sprint 245 (OCT 01 - OCT 14),14400,1800,Test has not failed for a long period of time. Jarvis closed ticket since it has not failed for over two weeks. Failure could be attributed to a number of factors. However does not seem to be failing regularly at this point.
+328582,Improvement,IO-1142,skandh.pathak,P1 - Urgent with no workaround,In Review,,Sprint 247 (OCT 29 - NOV 11),14400,14400,None
+322504,Improvement,IO-1108,jinyan.liu,P1 - Urgent with no workaround,Resolved,Fixed,Sprint 247 (OCT 29 - NOV 11),18000,32400,None
+321590,New Feature,IO-1151,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 247 (OCT 29 - NOV 11),14400,14400,None
+322387,New Feature,IO-1030,mohamad.arabi,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 247 (OCT 29 - NOV 11),14400,16200,None
+312666,Bug,ENGR-2479,mohamad.arabi,P0 - Blocker,Closed,Fixed,Sprint 246 (OCT 15 - OCT 28),1800,2400,"There was a nested it block inside another. After jasmine upgrade, these nested it blocks started failing."
+274520,Task,BUILD-14812,jinyan.liu,P0 - Blocker,Closed,Deferred,Sprint 241 (AUG 06 - AUG 19),21600,21600,None
+274768,Bug,IO-933,mohamad.arabi,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 241 (AUG 06 - AUG 19),18000,17100,"Did investigate on failing test. It turns out that because of platform change to how analytics fire, the analytics are triggered even when there is no data associated with the srcType. One of these analytics is clearing some of the setup data. Did refactoring of test"
+296694,Improvement,LCI-2675,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,"Sprint 243 (SEP 03 - SEP 16),Sprint 244 (SEP 17 - SEP 30)",3600,3600,None
+282704,Task,RESSMB-7312,henry.hom,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 242 (AUG 20 - SEP 02 ),28800,28800,None
+310141,Bug,BUILD-18386,mohamad.arabi,P0 - Blocker,Closed-Verified,No longer applicable,"Sprint 245 (OCT 01 - OCT 14),Sprint 246 (OCT 15 - OCT 28)",,,None
+282186,New Feature,TRAIN-429,jinyan.liu,P0 - Blocker,Closed-Verified,Fixed,Sprint 242 (AUG 20 - SEP 02 ),14400,7200,None
+283000,Task,BUILD-15083,henry.hom,Unprioritized,Closed-Verified,Fixed,Sprint 242 (AUG 20 - SEP 02 ),57600,36000,None
+298591,Task,ENGR-2353,chen.liu,P1 - Urgent with no workaround,Closed,Done,Sprint 244 (SEP 17 - SEP 30),14400,18000,None
+325098,Bug,BUILD-19664,mohamad.arabi,P0 - Blocker,In Review,,Sprint 247 (OCT 29 - NOV 11),14400,11700,"The Test updates the ItemFacilityInventoryParams.inScope value after setup right before evaluating the metric. The metric depends on a stored calc field on Facility that filters on inScope. In the server logs, after the ItemFacilityInventoryParams was updated there was no refreshCalcFields action executed. To avoid this error, set the inScope field in the beforeAll block."
+274788,Bug,IO-874,mohamad.arabi,P1 - Urgent with no workaround,Closed-Verified,Fixed,"Sprint 239 (JUL 09 - JUL 22),Sprint 240 (JUL 23 - AUG 05),Sprint 241 (AUG 06 - AUG 19)",57600,68400,"Found 2 issues both in QA and prod in the AnalyticsQueue errors: 1. For itemEvents data for ItemStorageLocationInventory there is too much data for the tsDecls to handle on the itemEvents. 300k+ data points. So created IO-886, IO-887, IO-889, IO-890 in order to normalize the itemEvents on ItemStorageLocationInventory. 2. Analytics not firing when srcTyp added after data. see PLAT-13477."
+288104,Bug,BUILD-16381,skandh.pathak,P0 - Blocker,Closed-Verified,No longer applicable,Sprint 243 (SEP 03 - SEP 16),,,closing as no longer applicable since this test has failed only once in build 8645 due to a timeout. this build has a bunch of other timeout related failures. This particular test hasn't failed before or since that build.
+286006,Bug,BUILD-15134,chen.liu,P0 - Blocker,Closed,Fixed,Sprint 242 (AUG 20 - SEP 02 ),7200,21600,This flipper was caused by the fact that the element was not clickable because it was obscured by menu element. The fix is to click the position close to bottom-right corner of the element.
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+283188,Bug,ENGR-2230,mohamad.arabi,P1 - Urgent with no workaround,Closed-Verified,Fixed,"Sprint 242 (AUG 20 - SEP 02 ),Sprint 241 (AUG 06 - AUG 19)",43200,72000,"2 issues: 1. There were metrics used that have been deleted a long time ago, before c3apps to c3base migration. Had to redefine some metrics. 2. Metrics used in energyManagement rely on data-model in a different non-dependant package, sustainability. to solve that provided 2 different definitions for each package"
+292242,Bug,BUILD-15657,skandh.pathak,P0 - Blocker,Closed-Verified,Fixed,Sprint 242 (AUG 20 - SEP 02 ),14400,14400,There were 6 test cases that ran before the new test case. The last one of those 6 test cases sent the browser to a new page where the new test could not find the elements it was looking for. Running the new test before all the others solved the issue.
+287681,New Feature,RESSMB-7334,mohamad.arabi,P1 - Urgent with no workaround,Closed-Verified,No longer applicable,Sprint 243 (SEP 03 - SEP 16),0,,None
+296477,New Feature,RESSMB-7332,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,"Sprint 243 (SEP 03 - SEP 16),Sprint 244 (SEP 17 - SEP 30)",14400,14400,None
+141682,Improvement,ENGR-578,chen.liu,P1 - Urgent with no workaround,Open,,2017 Engineering Plan,7200,,
+140185,Improvement,ENGR-913,chen.liu,P1 - Urgent with no workaround,Open,,2017 Engineering Plan,,,
+313666,Task,ENGR-2509,henry.hom,Unprioritized,Closed,Fixed,Sprint 246 (OCT 15 - OCT 28),28800,28800,None
+272619,Bug,EXC-15355,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,"Sprint 239 (JUL 09 - JUL 22),Sprint 240 (JUL 23 - AUG 05),Sprint 241 (AUG 06 - AUG 19)",7200,7200,"During the security change in c3server in 7.8, we took away UI access from defaultAccessRole. As a result we need to give admin groups access to UI individually. A script was run to add ui.Role.UIAccessRole to all AdminGroups. The script didn't add ui.Role.UIAccessRole to those AdminGroups correctly."
+297617,Improvement,ENGR-2186,chen.liu,P1 - Urgent with no workaround,Closed,Done,Sprint 244 (SEP 17 - SEP 30),43200,73800,None
+283636,Improvement,ENGR-2180,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 242 (AUG 20 - SEP 02 ),21600,32400,None
+284986,New Feature,RESSMB-7331,mohamad.arabi,P1 - Urgent with no workaround,Closed-Verified,No longer applicable,Sprint 243 (SEP 03 - SEP 16),0,,None
+303180,Bug,BUILD-17742,henry.hom,P0 - Blocker,Closed-Verified,Fixed,Sprint 245 (OCT 01 - OCT 14),1800,1800,"Most likely caused by impersonation failing in a previous test. Ticket has been opened and fixed. When this test is ran by itself locally, it passes without issue. This test should not fail anymore."
+313512,Bug,BUILD-18379,mohamad.arabi,P0 - Blocker,Closed-Verified,No longer applicable,"Sprint 245 (OCT 01 - OCT 14),Sprint 246 (OCT 15 - OCT 28)",,,None
+299933,Bug,BUILD-17102,mohamad.arabi,P0 - Blocker,Closed-Verified,Fixed,Sprint 244 (SEP 17 - SEP 30),19800,32400,"Due to the ACL privilege work done in LCI-2662, Even if the user had API permissions, the user still didn't have access to the data. To solve issue in test I populated the acls using memberToEntity. Also Tag has level 7 Authorizer.securityLevel(), therefore the user's role needed explicit permission for `Tag.getTypeId` method."
+308397,Bug,BUILD-18629,mohamad.arabi,P0 - Blocker,Closed-Verified,No longer applicable,Sprint 246 (OCT 15 - OCT 28),,,None
+324692,Bug,BUILD-19923,skandh.pathak,P0 - Blocker,Closed,No longer applicable,Sprint 247 (OCT 29 - NOV 11),14400,14400,"the http call to load google jsapi in UIBootloader failed, which caused the page to not render correctly which caused the test to fail. the same timeout issue affected at least one other test in the same build(BUILD-19926). looks like an intermittent issue in a 3rd party api."
+308754,Bug,BUILD-18378,mohamad.arabi,P0 - Blocker,Closed-Verified,No longer applicable,"Sprint 245 (OCT 01 - OCT 14),Sprint 246 (OCT 15 - OCT 28)",,,None
+323358,Bug,EXC-15747,mohamad.arabi,P1 - Urgent with no workaround,Closed,Fixed,Sprint 246 (OCT 15 - OCT 28),14400,9000,The problem is the schema migration was not checking if the table it was migrating from existed
+304305,Improvement,PREDM-1726,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 245 (OCT 01 - OCT 14),14400,19800,None
+309112,Bug,PREDM-1732,chen.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 245 (OCT 01 - OCT 14),14400,14400,"The ""record"" data of the map collection had a incorrect config which was ""collection"" whose value was true. The value of ""collection"" should be set to false."
+306417,Improvement,PREDM-1730,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 245 (OCT 01 - OCT 14),18000,18000,None
+313759,New Feature,IO-1101,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 246 (OCT 15 - OCT 28),3600,3600,None
+322367,New Feature,IO-1053,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 246 (OCT 15 - OCT 28),10800,7200,None
+284781,New Feature,RESSMB-7276,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,"Sprint 242 (AUG 20 - SEP 02 ),Sprint 241 (AUG 06 - AUG 19)",21600,21600,None
+284653,Improvement,UI-4244,jinyan.liu,"P2 - Critical, but workaround exists",Closed,Fixed,Sprint 242 (AUG 20 - SEP 02 ),28800,28800,None
+319854,Improvement,PREDM-1694,henry.hom,P1 - Urgent with no workaround,Resolved,Fixed,"Sprint 242 (AUG 20 - SEP 02 ),Sprint 244 (SEP 17 - SEP 30),Sprint 245 (OCT 01 - OCT 14),Sprint 247 (OCT 29 - NOV 11)",21600,10800,None
+319093,Task,ENGR-2546,henry.hom,Unprioritized,Open,,Sprint 247 (OCT 29 - NOV 11),28800,,None
+321600,New Feature,ENGR-2614,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 247 (OCT 29 - NOV 11),14400,10800,None
+315951,New Feature,LCI-2734,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 246 (OCT 15 - OCT 28),10800,18000,None
+314835,New Feature,LCI-2733,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 246 (OCT 15 - OCT 28),7200,7200,None
+288654,Improvement,IO-955,chen.liu,P1 - Urgent with no workaround,Closed-Verified,Done,Sprint 243 (SEP 03 - SEP 16),25200,14400,None
+288970,Improvement,IO-961,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 243 (SEP 03 - SEP 16),10800,7200,None
+275873,Improvement,ENGR-1839,henry.hom,P1 - Urgent with no workaround,Closed-Verified,Fixed,"Sprint 240 (JUL 23 - AUG 05),Sprint 241 (AUG 06 - AUG 19)",28800,36000,None
+306808,Improvement,PREDM-1741,henry.hom,Unprioritized,Closed-Verified,Fixed,Sprint 245 (OCT 01 - OCT 14),14400,14400,None
+306393,Improvement,PREDM-1720,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 245 (OCT 01 - OCT 14),10800,18000,None
+322232,Improvement,IO-1036,henry.hom,P1 - Urgent with no workaround,Closed,Fixed,"Sprint 246 (OCT 15 - OCT 28),Sprint 247 (OCT 29 - NOV 11)",10800,3600,None
+325808,New Feature,IO-1117,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 246 (OCT 15 - OCT 28),10800,7200,None
+317177,New Feature,IO-1104,henry.hom,P1 - Urgent with no workaround,Closed,Fixed,"Sprint 246 (OCT 15 - OCT 28),Sprint 247 (OCT 29 - NOV 11)",21600,21600,None
+316410,New Feature,IO-1103,henry.hom,P1 - Urgent with no workaround,Closed,Fixed,"Sprint 246 (OCT 15 - OCT 28),Sprint 247 (OCT 29 - NOV 11)",21600,21600,None
+324963,New Feature,LCI-2754,henry.hom,Unprioritized,In Progress,,Sprint 247 (OCT 29 - NOV 11),7200,,None
+299154,Bug,PREDM-1713,skandh.pathak,Unprioritized,Closed-Verified,Fixed,Sprint 244 (SEP 17 - SEP 30),18000,7200,None
+306025,Task,IO-1075,mohamad.arabi,P1 - Urgent with no workaround,Closed,Fixed,Sprint 245 (OCT 01 - OCT 14),1800,2400,None
+304165,Task,IO-1071,mohamad.arabi,P1 - Urgent with no workaround,Closed,No longer applicable,Sprint 245 (OCT 01 - OCT 14),,,None
+304860,Improvement,IO-1074,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 245 (OCT 01 - OCT 14),1800,1800,None
+307733,Improvement,IO-1079,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 245 (OCT 01 - OCT 14),1800,1800,None
+307321,Improvement,IO-1045,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 245 (OCT 01 - OCT 14),14400,5400,None
+307221,Improvement,IO-1076,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 245 (OCT 01 - OCT 14),1800,1800,None
+127896,Task,ENGR-1108,chen.liu,P1 - Urgent with no workaround,Open,,2017 Engineering Plan,7200,,
+276642,Task,TRAIN-416,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 241 (AUG 06 - AUG 19),7200,7200,None
+288150,Bug,BUILD-15834,skandh.pathak,P0 - Blocker,Closed-Verified,Fixed,Sprint 242 (AUG 20 - SEP 02 ),10800,10800,The test had some refreshCalcFields() calls that started breaking after an update to the server. removing those calls fixed the failure.
+290558,New Feature,ENGR-2285,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 243 (SEP 03 - SEP 16),10800,25200,None
+282760,New Feature,TRAIN-427,jinyan.liu,P0 - Blocker,Closed-Verified,Fixed,Sprint 242 (AUG 20 - SEP 02 ),28800,34200,None
+320336,New Feature,IO-1011,henry.hom,P1 - Urgent with no workaround,Resolved,Fixed,Sprint 247 (OCT 29 - NOV 11),7200,7200,None
+312022,Task,ENGR-2455,mohamad.arabi,P1 - Urgent with no workaround,Closed,Fixed,Sprint 245 (OCT 01 - OCT 14),14400,9000,None
+276773,Task,BUILD-14190,henry.hom,Unprioritized,Closed-Verified,Fixed,Sprint 241 (AUG 06 - AUG 19),57600,64800,None
+311766,Bug,BUILD-19330,jinyan.liu,P0 - Blocker,Closed,Fixed,Sprint 246 (OCT 15 - OCT 28),14400,3600,"Cause: mills second isn't persisted in the timestamp, so descending(timestamp) won't sort two records correctly. Solution: add sleep one second in the test."
+318572,Improvement,ENGR-2547,henry.hom,P0 - Blocker,Closed,Fixed,Sprint 246 (OCT 15 - OCT 28),14400,14400,None
+308334,Bug,BUILD-16575,mohamad.arabi,P0 - Blocker,Open,,Sprint 245 (OCT 01 - OCT 14),14400,7200,None
+308852,Bug,BUILD-18002,jinyan.liu,P0 - Blocker,Closed-Verified,Fixed,Sprint 245 (OCT 01 - OCT 14),14400,7200,"Because the millisecond part of the timestamp isn't persisted in the database, if two events happen in the same second, the database won't be able to pick up the latest one since both have the exact same timestamp."
+313773,Bug,BUILD-17284,henry.hom,P0 - Blocker,Closed,Fixed,"Sprint 245 (OCT 01 - OCT 14),Sprint 246 (OCT 15 - OCT 28)",14400,14400,"There is two parts to this fix. The first part is that in our TestApi teardown function, Series header types are cleaned up first before the measurements are removed. the second part is a bug found on platform and that needs to be fixed before this ticket can be closed. (PLAT-14741). The main problem on the platform is that the state object for normalization was not being updated to reflect that the series header is no longer there. That logic has been fixed so that the state is updated before the maximum retries is reached. Apps code can be fixed, but server needs to be updated to the version containing fix before this can be closed."
+325043,Improvement,IO-1154,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 247 (OCT 29 - NOV 11),3600,3600,None
+324051,Bug,ENGR-2478,mohamad.arabi,P0 - Blocker,Open,,Sprint 247 (OCT 29 - NOV 11),12600,16200,None
+308119,Bug,BUILD-18381,mohamad.arabi,P0 - Blocker,Closed-Verified,No longer applicable,"Sprint 245 (OCT 01 - OCT 14),Sprint 246 (OCT 15 - OCT 28)",,,None
+313465,Bug,ENGR-2586,henry.hom,Unprioritized,Closed,Done,Sprint 246 (OCT 15 - OCT 28),10800,10800,None
+319857,Improvement,IO-1112,mohamad.arabi,P1 - Urgent with no workaround,Resolved,Fixed,"Sprint 246 (OCT 15 - OCT 28),Sprint 247 (OCT 29 - NOV 11)",18000,23400,None
+320253,Improvement,IO-1086,mohamad.arabi,P1 - Urgent with no workaround,Resolved,Fixed,"Sprint 246 (OCT 15 - OCT 28),Sprint 247 (OCT 29 - NOV 11)",14400,16200,None
+289373,Bug,DEV-2757,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,"Sprint 240 (JUL 23 - AUG 05),Sprint 241 (AUG 06 - AUG 19)",18000,18000,"The height of the element is restricted to the height of the viewport, so it's not possible to scroll to the bottom of the element."
+308428,New Feature,IO-973,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 245 (OCT 01 - OCT 14),14400,21600,None
+288089,Improvement,PREDM-1705,skandh.pathak,P1 - Urgent with no workaround,Closed,Fixed,Sprint 243 (SEP 03 - SEP 16),28800,36000,None
+308143,New Feature,IO-1025,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 245 (OCT 01 - OCT 14),7200,10800,None
+275185,Task,ENGR-2107,jinyan.liu,Unprioritized,Closed,Fixed,Sprint 241 (AUG 06 - AUG 19),18000,7200,None
+281425,Task,RESSMB-7314,henry.hom,P1 - Urgent with no workaround,Closed,Fixed,Sprint 242 (AUG 20 - SEP 02 ),28800,28800,None
+313215,Improvement,ENGR-2524,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 246 (OCT 15 - OCT 28),10800,7200,None
+283484,Improvement,ENGR-2162,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 242 (AUG 20 - SEP 02 ),28800,50400,None
+327742,New Feature,IO-1027,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 247 (OCT 29 - NOV 11),10800,10800,None
+322073,New Feature,IO-1139,henry.hom,"P2 - Critical, but workaround exists",Resolved,Fixed,Sprint 247 (OCT 29 - NOV 11),3600,3600,None
+322099,New Feature,IO-1137,skandh.pathak,P1 - Urgent with no workaround,Resolved,Fixed,Sprint 247 (OCT 29 - NOV 11),21600,21600,None
+272180,Task,IO-925,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 241 (AUG 06 - AUG 19),21600,21600,None
+286016,Bug,BUILD-14484,chen.liu,P0 - Blocker,Closed,Fixed,Sprint 241 (AUG 06 - AUG 19),10800,9000,The test was flipping because it was running against an undetermined webpage. I put the fix which is to let the test run against local server that we have control.
+271179,Bug,BUILD-10403,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,No longer applicable,Sprint 241 (AUG 06 - AUG 19),,,None
+322629,Bug,BUILD-19963,jinyan.liu,P0 - Blocker,Closed-Verified,Fixed,Sprint 247 (OCT 29 - NOV 11),14400,3600,"The test failed because this.endDate is 2018-11-01, so end is 2018-10-01, start is 2018-04-01. When end is at the beginning of a month, metric is evaluated to the end of the previous month, so the metric will be evaluated from April to September, a total of 6 months. When end is at the end of a month, metric is evaluated to the end of that month. If end is 2018-10-02, start is 2018-04-02, metric will be evaluated from April to October, a total of 7 months. I changed end to make sure it is always the end of the month, so the interval will always be 7 months."
+296714,New Feature,RESSMB-7327,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,"Sprint 243 (SEP 03 - SEP 16),Sprint 244 (SEP 17 - SEP 30)",14400,7200,None
+284976,New Feature,RESSMB-7325,mohamad.arabi,P1 - Urgent with no workaround,Closed-Verified,No longer applicable,Sprint 243 (SEP 03 - SEP 16),0,,None
+299216,Bug,ENGR-2399,jinyan.liu,P0 - Blocker,In Progress,,Sprint 245 (OCT 01 - OCT 14),14400,,None
+318692,Bug,ENGR-2475,henry.hom,P1 - Urgent with no workaround,Closed-Verified,Cannot Reproduce,Sprint 246 (OCT 15 - OCT 28),14400,14400,Restructured test in an attempt to easier find where it fails if it fails again. Hid side bar in case it was covering something. Changed all waits to use default wait time in case Jenkins is taking longer then the defined time previously. Ran test locally 25 times and did not fail once after changes. Hoping that these changes will make the test more consistent and not fail.
+288868,Bug,LCI-2604,chen.liu,P1 - Urgent with no workaround,Closed,Done,Sprint 242 (AUG 20 - SEP 02 ),21600,10800,This ticket was to help debugging the issue.
+294447,New Feature,RESSMB-7328,henry.hom,P1 - Urgent with no workaround,Closed-Verified,Fixed,"Sprint 243 (SEP 03 - SEP 16),Sprint 244 (SEP 17 - SEP 30)",14400,14400,None
+296468,Improvement,LCI-2699,henry.hom,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 244 (SEP 17 - SEP 30),14400,21600,None
+300562,Improvement,IO-929,skandh.pathak,"P2 - Critical, but workaround exists",Closed-Verified,Fixed,Sprint 244 (SEP 17 - SEP 30),3600,3600,None
+288264,Bug,LCI-2587,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 241 (AUG 06 - AUG 19),21600,15600,this was caused due to PLAT-13786. It was fixed in c3-server v7.8.1.3118 onwards.
+290598,Bug,BUILD-15935,jinyan.liu,P0 - Blocker,Closed-Verified,Fixed,Sprint 243 (SEP 03 - SEP 16),,,"c3 tester is used in the apps pipeline and it is using the default batch size of 75. When batch size is low, multiple tests are running simultaneously, and due to limited shared computing resources, tests are timing out."
+311258,Bug,BUILD-18391,mohamad.arabi,P0 - Blocker,Closed-Verified,No longer applicable,"Sprint 245 (OCT 01 - OCT 14),Sprint 246 (OCT 15 - OCT 28)",,,None
+311228,Bug,BUILD-18382,mohamad.arabi,P0 - Blocker,Closed-Verified,No longer applicable,"Sprint 245 (OCT 01 - OCT 14),Sprint 246 (OCT 15 - OCT 28)",,,None
+314359,Bug,BUILD-18625,jinyan.liu,P0 - Blocker,Closed-Verified,Fixed,Sprint 246 (OCT 15 - OCT 28),14400,7200,"The problem is with the two lines of code below collection.load(); collection.whenLoaded(function() { self.renderSeries.apply(self, arguments); }); The whenLoaded event is after collection.load(). It is possible the collection is loaded before whenLoaded is added. When that scenario happens, the renderSeries function is not called. The solution is to reverse the order of those two lines."
+316014,Bug,BUILD-18762,mohamad.arabi,P0 - Blocker,Closed,Cannot Reproduce,Sprint 246 (OCT 15 - OCT 28),14400,9000,After investigating the implementations and into the server logs I was not able to reproduce nor find reason for failure. So I added more logging to help with identifying root cause if test fails again.
+320076,Bug,BUILD-20060,henry.hom,P0 - Blocker,In Progress,,Sprint 247 (OCT 29 - NOV 11),14400,,None
+281917,Task,ENGR-2295,chen.liu,P1 - Urgent with no workaround,Closed,Done,Sprint 242 (AUG 20 - SEP 02 ),86400,86400,None
+298510,Improvement,IO-928,mohamad.arabi,"P2 - Critical, but workaround exists",Closed-Verified,Fixed,Sprint 244 (SEP 17 - SEP 30),14400,14400,None
+310923,Bug,BUILD-18389,mohamad.arabi,P0 - Blocker,Closed-Verified,No longer applicable,"Sprint 245 (OCT 01 - OCT 14),Sprint 246 (OCT 15 - OCT 28)",,,None
+321614,Bug,BUILD-19137,chen.liu,P0 - Blocker,Closed,Fixed,Sprint 247 (OCT 29 - NOV 11),21600,23400,The test was not written properly. I refactored the test to address the flipper issue.
+274797,Bug,BUILD-14835,jinyan.liu,P0 - Blocker,Closed,No longer applicable,Sprint 241 (AUG 06 - AUG 19),,,None
+308387,Bug,BUILD-18388,mohamad.arabi,P0 - Blocker,Closed-Verified,No longer applicable,"Sprint 245 (OCT 01 - OCT 14),Sprint 246 (OCT 15 - OCT 28)",,,None
+319797,Improvement,ENGR-2465,skandh.pathak,P0 - Blocker,Closed,Fixed,Sprint 247 (OCT 29 - NOV 11),28800,28800,the tests were failing because the setup functions were not running in the order in which the test expected them to because of jasmine version upgrade. Additionally some test data was out of sync with the corresponding metrics and needed to be changed as well (these tests were not getting executed earlier due to nested it blocks which caused these potential failures to go unnoticed). All tests have now been fixed and I've extracted out the metric tests into a separate file.
+271998,New Feature,RESSMB-7290,henry.hom,P1 - Urgent with no workaround,Closed-Verified,No longer applicable,Sprint 241 (AUG 06 - AUG 19),0,,None
+282416,New Feature,RESSMB-7279,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,"Sprint 242 (AUG 20 - SEP 02 ),Sprint 241 (AUG 06 - AUG 19)",21600,18000,None
+273182,New Feature,RESSMB-7287,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,No longer applicable,Sprint 241 (AUG 06 - AUG 19),0,,None
+313749,New Feature,ENGR-2423,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 246 (OCT 15 - OCT 28),14400,14400,None
+315777,Improvement,ENGR-2618,henry.hom,Unprioritized,Open,,Sprint 247 (OCT 29 - NOV 11),14400,,None
+291784,Bug,EXC-15522,henry.hom,P1 - Urgent with no workaround,Closed-Verified,Fixed,"Sprint 242 (AUG 20 - SEP 02 ),Sprint 243 (SEP 03 - SEP 16)",14400,18000,Save button verification was not to be enabled when correct items were selected. Test has been added to verify that fields appear and save button works correctly.
+309016,Bug,PREDM-1725,henry.hom,P1 - Urgent with no workaround,Closed,Fixed,Sprint 245 (OCT 01 - OCT 14),14400,14400,Tab was a port from customer repo. Seems like not all configs were properly ported because some of the configs present referred to objects that were not part of this package. Removing those and updating them to reflect what they should be using fixed the majority of issues.
+316899,Improvement,IO-1033,henry.hom,P1 - Urgent with no workaround,Closed,Fixed,"Sprint 246 (OCT 15 - OCT 28),Sprint 247 (OCT 29 - NOV 11)",14400,10800,None
+288320,Improvement,LCI-2585,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 243 (SEP 03 - SEP 16),28800,21600,None
+319050,Improvement,IO-1113,mohamad.arabi,P1 - Urgent with no workaround,Resolved,Fixed,"Sprint 246 (OCT 15 - OCT 28),Sprint 247 (OCT 29 - NOV 11)",7200,23400,None
+322035,New Feature,IO-1052,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 246 (OCT 15 - OCT 28),10800,7200,None
+138722,Task,ENGR-562,chen.liu,"P2 - Critical, but workaround exists",Open,,2017 Engineering Plan,14400,,
+301033,Improvement,IO-858,henry.hom,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 244 (SEP 17 - SEP 30),14400,25200,None
+302732,Improvement,PREDM-1698,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,"Sprint 243 (SEP 03 - SEP 16),Sprint 244 (SEP 17 - SEP 30)",28800,14400,None
+298520,Improvement,PREDM-1709,mohamad.arabi,P1 - Urgent with no workaround,Closed-Verified,Fixed,"Sprint 243 (SEP 03 - SEP 16),Sprint 244 (SEP 17 - SEP 30)",36000,28800,None
+305814,Improvement,IO-1066,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 245 (OCT 01 - OCT 14),1800,1800,None
+305714,Improvement,IO-1082,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 245 (OCT 01 - OCT 14),12600,9000,None
+135488,Epic,ENGR-598,jinyan.liu,"P2 - Critical, but workaround exists",Open,,2017 Engineering Plan,,,
+286312,Task,RESSMB-7263,mohamad.arabi,P1 - Urgent with no workaround,Closed,Fixed,Sprint 242 (AUG 20 - SEP 02 ),18000,14400,None
+283801,Task,RESSMB-7270,mohamad.arabi,P1 - Urgent with no workaround,Closed,Fixed,Sprint 242 (AUG 20 - SEP 02 ),18000,18000,None
+273545,Task,RESSMB-7259,chen.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 241 (AUG 06 - AUG 19),14400,9000,None
+278057,Task,RESSMB-7294,chen.liu,P1 - Urgent with no workaround,Closed,No longer applicable,Sprint 242 (AUG 20 - SEP 02 ),0,,None
+273110,Task,RESSMB-7129,chen.liu,"P2 - Critical, but workaround exists",Closed,Fixed,Sprint 241 (AUG 06 - AUG 19),10800,59400,
+318032,Improvement,ENGR-2522,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 246 (OCT 15 - OCT 28),10800,7200,None
+288394,New Feature,ENGR-2284,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 243 (SEP 03 - SEP 16),10800,12600,None
+319734,Improvement,IO-1143,henry.hom,"P2 - Critical, but workaround exists",Resolved,Fixed,Sprint 247 (OCT 29 - NOV 11),14400,14400,None
+291538,Bug,BUILD-16652,skandh.pathak,P0 - Blocker,Closed-Verified,Fixed,Sprint 243 (SEP 03 - SEP 16),,,duplicate fields were introduced in UITestEnergyManagementFacilityDetailPage while merging master into develop. removing the duplicate fields fixed the failure.
+288667,Task,ENGR-2314,chen.liu,P1 - Urgent with no workaround,Closed,Done,Sprint 243 (SEP 03 - SEP 16),21600,21600,None
+296104,Task,ENGR-2389,chen.liu,P1 - Urgent with no workaround,Closed,Done,Sprint 244 (SEP 17 - SEP 30),10800,9000,None
+296518,Task,ENGR-2409,chen.liu,P1 - Urgent with no workaround,Closed,Done,Sprint 244 (SEP 17 - SEP 30),18000,14400,None
+290832,Bug,BUILD-14666,chen.liu,P0 - Blocker,Closed,No longer applicable,Sprint 241 (AUG 06 - AUG 19),3600,1800,This was a issue in energy star side.
+313482,Bug,BUILD-18387,mohamad.arabi,P0 - Blocker,Closed-Verified,No longer applicable,"Sprint 245 (OCT 01 - OCT 14),Sprint 246 (OCT 15 - OCT 28)",,,None
+297025,Improvement,LCI-2676,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,"Sprint 243 (SEP 03 - SEP 16),Sprint 244 (SEP 17 - SEP 30)",3600,3600,None
+286849,Task,RESSMB-7338,henry.hom,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 243 (SEP 03 - SEP 16),14400,7200,None
+291021,Task,LCI-2683,mohamad.arabi,Unprioritized,Closed-Verified,Fixed,Sprint 243 (SEP 03 - SEP 16),14400,16200,None
+297520,Improvement,IO-940,mohamad.arabi,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 244 (SEP 17 - SEP 30),18000,17100,None
+295460,Improvement,IO-877,chen.liu,P1 - Urgent with no workaround,Closed-Verified,Done,Sprint 244 (SEP 17 - SEP 30),14400,25200,None
+297597,Bug,IO-988,mohamad.arabi,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 244 (SEP 17 - SEP 30),14400,18000,"When local datetimes where sent to the metricEngine to evaluate, they were being treated as UTC timezone. That is why the metric would evaluate one day shifted in the future."
+294749,Improvement,IO-945,chen.liu,P1 - Urgent with no workaround,Closed,Done,Sprint 244 (SEP 17 - SEP 30),14400,19800,None
+310151,Bug,BUILD-18375,mohamad.arabi,P0 - Blocker,Closed-Verified,No longer applicable,"Sprint 245 (OCT 01 - OCT 14),Sprint 246 (OCT 15 - OCT 28)",,,None
+289375,Improvement,ENGR-2027,jinyan.liu,"P2 - Critical, but workaround exists",Closed,Fixed,Sprint 243 (SEP 03 - SEP 16),18000,39600,None
+319416,Bug,BUILD-19864,jinyan.liu,P0 - Blocker,Open,,Sprint 247 (OCT 29 - NOV 11),14400,14400,None
+277352,Task,ENGR-2216,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 241 (AUG 06 - AUG 19),28800,10800,None
+307045,Bug,ENGR-2548,jinyan.liu,P0 - Blocker,Open,,Sprint 246 (OCT 15 - OCT 28),14400,,None
+307880,Task,ENGR-2558,mohamad.arabi,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 246 (OCT 15 - OCT 28),7200,5400,None
+283625,New Feature,RESSMB-7285,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 242 (AUG 20 - SEP 02 ),28800,21600,None
+271093,New Feature,RESSMB-7293,henry.hom,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 241 (AUG 06 - AUG 19),21600,21600,None
+283675,New Feature,RESSMB-7280,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,"Sprint 242 (AUG 20 - SEP 02 ),Sprint 241 (AUG 06 - AUG 19)",21600,14400,None
+289315,Improvement,UI-4282,jinyan.liu,"P2 - Critical, but workaround exists",Closed-Verified,Fixed,"Sprint 241 (AUG 06 - AUG 19),Sprint 243 (SEP 03 - SEP 16)",28800,18000,None
+314304,Improvement,PREDM-1762,skandh.pathak,"P2 - Critical, but workaround exists",Closed-Verified,Fixed,Sprint 246 (OCT 15 - OCT 28),14400,14400,None
+140881,Improvement,ENGR-1282,chen.liu,Unprioritized,Open,,2017 Engineering Plan,,,
+140687,Task,ENGR-573,chen.liu,"P2 - Critical, but workaround exists",Open,,2017 Engineering Plan,10800,,
+141639,Improvement,ENGR-1387,chen.liu,P1 - Urgent with no workaround,Open,,2017 Engineering Plan,,,
+314416,New Feature,LCI-2745,mohamad.arabi,P1 - Urgent with no workaround,Open,,Sprint 247 (OCT 29 - NOV 11),3600,,None
+297273,New Feature,ENGR-2367,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,No longer applicable,Sprint 244 (SEP 17 - SEP 30),14400,,None
+288525,Bug,LCI-2554,skandh.pathak,P0 - Blocker,Closed-Verified,Fixed,Sprint 241 (AUG 06 - AUG 19),25200,28800,This error was caused to a combination of 1. incorrect config in c3ui file 2. logic error in the ui component (javascript)
+303780,Bug,PREDM-1724,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 245 (OCT 01 - OCT 14),14400,43200,The risk score chart and feature contribution grid were not configured correctly in RiskAndPred.c3ui. The component for feature contribution grid was missing entirely from the base repo (likely caused in ui migration). The issue was fixed by referring to similar implementation in customer repo.
+304267,Bug,PREDM-1715,henry.hom,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 245 (OCT 01 - OCT 14),14400,14400,"Had to use different data source for chart on dashboard as it was being shared throughout the app. Once a grid modifies the data source, there was no way for us to revert back the filter. Better solution was to separate it out since it truly is a different set of data we are trying to display. Test has been added."
+306373,Task,PREDM-1739,henry.hom,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 245 (OCT 01 - OCT 14),14400,14400,None
+317097,New Feature,IO-1116,henry.hom,P1 - Urgent with no workaround,Closed,Fixed,"Sprint 246 (OCT 15 - OCT 28),Sprint 247 (OCT 29 - NOV 11)",14400,14400,None
+319712,New Feature,IO-1100,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 246 (OCT 15 - OCT 28),3600,3600,None
+317325,Improvement,IO-1085,henry.hom,P1 - Urgent with no workaround,Closed,Fixed,"Sprint 246 (OCT 15 - OCT 28),Sprint 247 (OCT 29 - NOV 11)",10800,14400,None
+315076,New Feature,LCI-2755,henry.hom,Unprioritized,Open,,Sprint 247 (OCT 29 - NOV 11),7200,,None
+306211,Improvement,IO-989,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 244 (SEP 17 - SEP 30),28800,36000,None
+297888,Improvement,IO-876,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 244 (SEP 17 - SEP 30),14400,32400,None
+297179,Improvement,IO-861,mohamad.arabi,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 244 (SEP 17 - SEP 30),36000,22500,None
+305904,Improvement,IO-1080,henry.hom,P1 - Urgent with no workaround,Closed,Fixed,Sprint 245 (OCT 01 - OCT 14),600,600,None
+304106,Improvement,IO-1089,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 245 (OCT 01 - OCT 14),14400,14400,None
+300985,Improvement,IO-1092,jinyan.liu,P1 - Urgent with no workaround,Closed,No longer applicable,Sprint 245 (OCT 01 - OCT 14),7200,,None
+304789,Task,IO-1073,mohamad.arabi,P1 - Urgent with no workaround,Closed,Fixed,Sprint 245 (OCT 01 - OCT 14),1800,2100,None
+308762,Task,IO-1070,mohamad.arabi,P1 - Urgent with no workaround,Closed,No longer applicable,Sprint 245 (OCT 01 - OCT 14),,,None
+290543,Task,RESSMB-7125,henry.hom,"P2 - Critical, but workaround exists",Closed-Verified,Fixed,"Sprint 242 (AUG 20 - SEP 02 ),Sprint 243 (SEP 03 - SEP 16)",57600,57600,
+280854,Task,RESSMB-7265,chen.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 242 (AUG 20 - SEP 02 ),18000,50400,None
+288334,Task,RESSMB-7126,jinyan.liu,"P2 - Critical, but workaround exists",Closed-Verified,Fixed,"Sprint 242 (AUG 20 - SEP 02 ),Sprint 243 (SEP 03 - SEP 16)",10800,10800,
+287346,New Feature,RESSMB-7317,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,"Sprint 242 (AUG 20 - SEP 02 ),Sprint 243 (SEP 03 - SEP 16)",57600,86400,None
+276272,Task,RESSMB-7267,chen.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 241 (AUG 06 - AUG 19),18000,1800,None
+273367,Task,RESSMB-7261,chen.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 241 (AUG 06 - AUG 19),14400,5400,None
+297069,Improvement,ENGR-2363,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 244 (SEP 17 - SEP 30),28800,36000,None
+322045,New Feature,IO-1136,skandh.pathak,P1 - Urgent with no workaround,Resolved,Fixed,Sprint 247 (OCT 29 - NOV 11),14400,18000,None
+134840,Epic,ENGR-599,chen.liu,"P2 - Critical, but workaround exists",Open,,2017 Engineering Plan,,,
+290842,Bug,EXC-15434,chen.liu,P0 - Blocker,Closed,Fixed,Sprint 241 (AUG 06 - AUG 19),,,"This was not a bug nor regression. To make it works, we need to clear Translation cache, AssetQuestion cache and ValidAssetAnswer cache"
+294573,Task,LCI-2661,skandh.pathak,Unprioritized,Closed-Verified,Fixed,"Sprint 243 (SEP 03 - SEP 16),Sprint 244 (SEP 17 - SEP 30)",21600,21600,None
+296404,New Feature,LCI-2659,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,"Sprint 243 (SEP 03 - SEP 16),Sprint 244 (SEP 17 - SEP 30)",21600,25200,None
+293165,Improvement,LCI-2678,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 244 (SEP 17 - SEP 30),21600,32400,None
+291807,Improvement,IO-980,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 244 (SEP 17 - SEP 30),7200,7200,None
+290802,Bug,BUILD-14831,chen.liu,P0 - Blocker,Closed,Deferred,Sprint 241 (AUG 06 - AUG 19),28800,28800,"The failure was introduced by 1) UI-4319, and 2) switching to TestRunner. Before TestRunner, those tests were not running, and when UI-4319 broke it, we didn't catch that."
+292591,Bug,BUILD-14358,henry.hom,P0 - Blocker,Closed-Verified,Fixed,Sprint 241 (AUG 06 - AUG 19),1800,1800,"residual x in front of afterall was left which caused test to fail. Once removed test ran accordingly. Comment was made that if test continues to flip, flipper ticket would be opened for this test."
+298905,Task,ENGR-2388,skandh.pathak,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 244 (SEP 17 - SEP 30),10800,7200,None
+307276,Bug,BUILD-18384,mohamad.arabi,P0 - Blocker,Closed-Verified,No longer applicable,"Sprint 245 (OCT 01 - OCT 14),Sprint 246 (OCT 15 - OCT 28)",,,None
+302946,Task,ENGR-2433,henry.hom,Unprioritized,Closed-Verified,Fixed,Sprint 245 (OCT 01 - OCT 14),43200,43200,None
+314360,Epic,ENGR-2550,jinyan.liu,P1 - Urgent with no workaround,Closed,Fixed,Sprint 246 (OCT 15 - OCT 28),,,None
+300622,Task,ENGR-2373,chen.liu,P1 - Urgent with no workaround,Closed,Done,Sprint 244 (SEP 17 - SEP 30),28800,28800,None
+325788,Bug,ENGR-2477,mohamad.arabi,P0 - Blocker,Closed,Fixed,Sprint 247 (OCT 29 - NOV 11),5400,10800,None
+273969,Task,BUILD-14819,jinyan.liu,P0 - Blocker,Closed,Deferred,Sprint 241 (AUG 06 - AUG 19),,,None
+324392,Bug,BUILD-19731,skandh.pathak,P0 - Blocker,Closed-Verified,Cannot Reproduce,"Sprint 246 (OCT 15 - OCT 28),Sprint 247 (OCT 29 - NOV 11)",14400,14400,"The map reduce job that caches anomaly scores took longer than expected which caused one of the test cases to fail. however other test cases in the same test running the same map reduce job passed in that build. there wasn't enough information in the server logs to conclude what caused this (no invalidationqueue errors, no map reduce job errors, no metric eval errors from anomalycache.js). I wasn't able to reproduce this failure on my local machine and this test hasn't failed for the last 25 builds (failures in c3server have a different version of this file). closing as could not reproduce."
+317524,Bug,BUILD-19277,henry.hom,P0 - Blocker,In Progress,,Sprint 247 (OCT 29 - NOV 11),14400,,None
+308427,Bug,BUILD-18390,mohamad.arabi,P0 - Blocker,Closed-Verified,No longer applicable,"Sprint 245 (OCT 01 - OCT 14),Sprint 246 (OCT 15 - OCT 28)",,,None
+307452,Task,BUILD-18006,mohamad.arabi,P1 - Urgent with no workaround,Closed,Fixed,Sprint 245 (OCT 01 - OCT 14),19800,19800,None
+310483,Task,ENGR-2499,mohamad.arabi,P1 - Urgent with no workaround,Closed-Verified,Fixed,"Sprint 245 (OCT 01 - OCT 14),Sprint 246 (OCT 15 - OCT 28)",7200,1800,None
+310883,Bug,BUILD-18383,mohamad.arabi,P0 - Blocker,Closed-Verified,No longer applicable,"Sprint 245 (OCT 01 - OCT 14),Sprint 246 (OCT 15 - OCT 28)",,,None
+319234,Task,ENGR-2462,chen.liu,"P2 - Critical, but workaround exists",Open,,"Sprint 246 (OCT 15 - OCT 28),Sprint 247 (OCT 29 - NOV 11)",,,None
+309198,Task,ENGR-2508,jinyan.liu,P1 - Urgent with no workaround,Closed-Verified,Fixed,Sprint 245 (OCT 01 - OCT 14),10800,10800,None

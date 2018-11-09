@@ -379,7 +379,7 @@
                                     <i class="fa fa-comments fa-5x"></i>
                                 </div> -->
                                 <div class="col-xs-9 text-right">
-                                    <div class="huge">39%</div>
+                                    <div class="huge">{{sprint_completion|safe}}</div>
                                     <div>( 27 / 70 )</div>
                                 </div>
                             </div>
@@ -394,7 +394,7 @@
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-6">
-                    <div class="panel panel-green">
+                    <div class="panel panel-red">
                         <div class="panel-heading">
                                 <span class="pull-left">P0s this sprint</span>
                             <div class="row">
@@ -402,7 +402,7 @@
                                     <i class="fa fa-tasks fa-5x"></i>
                                 </div> -->
                                 <div class="col-xs-9 text-right">
-                                    <div class="huge">4/18</div>
+                                    <div class="huge">{{p0s|safe}}</div>
                                     <div> . </div>
                                 </div>
                             </div>
@@ -425,7 +425,7 @@
                                     <i class="fa fa-shopping-cart fa-5x"></i>
                                 </div> -->
                                 <div class="col-xs-9 text-right">
-                                    <div class="huge">18/42</div>
+                                    <div class="huge">{{p1s|safe}}</div>
                                     <div>.</div>
                                 </div>
                             </div>
@@ -440,7 +440,7 @@
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-6">
-                    <div class="panel panel-red">
+                    <div class="panel panel-green">
                         <div class="panel-heading">
                                 <span class="pull-left">RCAs completed</span>
                             <div class="row">
@@ -448,7 +448,7 @@
                                     <i class="fa fa-support fa-5x"></i>
                                 </div> -->
                                 <div class="col-xs-9 text-right">
-                                    <div class="huge">12/60</div>
+                                    <div class="huge">{{rca_written_or_not|safe}}</div>
                                     <div>P0s, P1s</div>
                                 </div>
                             </div>
@@ -471,7 +471,7 @@
                                     <i class="fa fa-support fa-5x"></i>
                                 </div> -->
                                 <div class="col-xs-9 text-right">
-                                    <div class="huge">2 / 60</div>
+                                    <div class="huge">{{ tickets_under_estimated|safe }}</div>
                                     <div>.</div>
                                 </div>
                             </div>
