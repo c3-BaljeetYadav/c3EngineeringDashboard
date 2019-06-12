@@ -1,0 +1,10 @@
+# Virtualenv
+c3edEnv/
+devEnv/
+
+# Temporary files
+*.pyc
+
+# System files
+*.DS_Store
+
