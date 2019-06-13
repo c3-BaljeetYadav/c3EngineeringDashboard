@@ -1,5 +1,6 @@
 import requests
 import functools
+import re
 from jira import JIRA
 
 
@@ -8,7 +9,7 @@ class JiraException(Exception):
     pass
 
 
-class Jira(object):
+class C3Jira(object):
     # Overwriting default methods
     def __init__(self, **kwargs):
         if len(kwargs) != 3:
@@ -52,12 +53,18 @@ class Jira(object):
 
     # Helper methods
     def my_current_issues_with(self, equals = {}, inequals = {}):
-        # equals is expected to be a dictionary with field -> value
+        # equals and inequals is expected to be a dictionary with field -> value
+        def field_equal(f, i, tf):
+            if hasattr(getattr(i.fields, f), 'id') and getattr(i.fields, f).id == tf.id:
+                return True
+            else:
+                return getattr(i.fields, f) == tf
+
         result_issues = []
         for issue in self.curr_issues:
             if (
-                all((getattr(issue.fields, field) == equals[field] for field in equals)) and
-                all((getattr(issue.fields, field) != inequals[field] for field in inequals))
+                all((field_equal(field, issue, equals[field]) for field in equals)) and
+                all((not field_equal(field, issue, inequals[field]) for field in inequals))
             ):
                 result_issues.append(issue)
         return result_issues
@@ -101,6 +108,18 @@ class Jira(object):
                 if int(issue.fields.timeoriginalestimate) < int(issue.fields.timespent):
                     num_underestimated += 1
         return num_underestimated / num_completed_with_estimate if num_completed_with_estimate != 0 else 0.0
+    
+    def current_sprint_num(self):
+        if self.curr_issues:
+            # TODO: replace hardcoded sprint source with something more flexible (customfield_10782)
+            sprint_info = self.curr_issues[0].fields.customfield_10782[0]
+            sprint_num_match = re.search('(?<=name\=Sprint )\d+', sprint_info)
+            if sprint_num_match:
+                return sprint_num_match.group()
+            else:
+                raise ValueError('Current sprint number does not exist!')
+        else:
+            return 0
 
 
 if __name__ == '__main__':
@@ -108,7 +127,7 @@ if __name__ == '__main__':
     with open(pass_file_name) as f:
         username, token = [s.strip() for s in f]
 
-    jira = Jira(server='https://c3energy.atlassian.net', username=username, token=token)
+    jira = C3Jira(server='https://c3energy.atlassian.net', username=username, token=token)
 
     status = ['Canceled', 'Resolved', 'Closed', 'In Progress', 'Pending', 'Escalated']
     print('Sprint completion rate:', jira.current_rate_with_status(status[:3]))
