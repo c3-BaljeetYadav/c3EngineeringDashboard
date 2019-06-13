@@ -8,3 +8,6 @@ devEnv/
 # System files
 *.DS_Store
 
+# Login information files
+*.pass
+login_info.*
