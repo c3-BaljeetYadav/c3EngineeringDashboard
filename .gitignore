@@ -10,7 +10,8 @@ devEnv/
 
 # Personal files
 *.pass
-login_info.*
+jira.*
+github.*
 *.db
 db.*
 

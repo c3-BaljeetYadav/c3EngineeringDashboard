@@ -55,7 +55,7 @@ class C3Jira(object):
     def my_current_issues_with(self, equals = {}, inequals = {}):
         # equals and inequals is expected to be a dictionary with field -> value
         def field_equal(f, i, tf):
-            if hasattr(getattr(i.fields, f), 'id') and getattr(i.fields, f).id == tf.id:
+            if hasattr(getattr(i.fields, f), 'id') and hasattr(tf, 'id') and getattr(i.fields, f).id == tf.id:
                 return True
             else:
                 return getattr(i.fields, f) == tf
@@ -71,12 +71,30 @@ class C3Jira(object):
 
 
     # External methods for clients to use
-    def current_rate_with_status(self, status = ['Canceled', 'Resolved', 'Closed']):
-        completed = 0
-        for issue in self.curr_issues:
-            if str(issue.fields.status) in status:
-                completed += 1
-        return completed / len(self.curr_issues)
+    def current_issues_with_status(self, status = ['Done', 'Resolved', 'Closed', 'Closed-Verified']):
+        status_list = {
+            'Open': '1',
+            'Resolved': '10104',
+            'In Review': '10001',
+            'Backlog': '10002',
+            'Selected for Development': '10003',
+            'Spec in Progress': '10200',
+            'Specification Complete': '10201',
+            'Abandoned': '10272',
+            'Approval': '10273',
+            'Final Approval': '10274',
+            'To Do': '10005',
+            'Done': '10004',
+            'In Progress': '3',
+            'Reopened': '4',
+            'Closed': '5',
+            'Closed-Verified': '6'
+        }
+        completed = []
+        for s in status:
+            status_id = self.__client.status(status_list[s])
+            completed.extend(self.my_current_issues_with(equals={'status': status_id}))
+        return completed, self.curr_issues
     
     def current_issues_with_priority(self, priority = 'p0'):
         priorities = {
@@ -123,14 +141,14 @@ class C3Jira(object):
 
 
 if __name__ == '__main__':
-    pass_file_name = 'login_info.pass'
+    pass_file_name = 'jira.pass'
     with open(pass_file_name) as f:
         username, token = [s.strip() for s in f]
 
     jira = C3Jira(server='https://c3energy.atlassian.net', username=username, token=token)
 
-    status = ['Canceled', 'Resolved', 'Closed', 'In Progress', 'Pending', 'Escalated']
-    print('Sprint completion rate:', jira.current_rate_with_status(status[:3]))
+    status = ['Done', 'Resolved', 'Closed', 'Closed-Verified']
+    print('Sprint completion:', jira.current_issues_with_status(status))
 
 
     print('P0:', jira.current_issues_with_priority('p0'))
