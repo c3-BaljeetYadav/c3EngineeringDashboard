@@ -56,7 +56,7 @@ ROOT_URLCONF = 'website.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['/Users/baljeetyadav/Downloads/c3EngineeringDashboard/website/dashboardApp'],
+        'DIRS': [os.path.join(BASE_DIR, 'dashboardApp')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'website.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': os.path.join(BASE_DIR, 'dashboardApp/data/dashboard.db')
     }
 }
 
@@ -122,4 +122,4 @@ USE_TZ = True
 STATIC_URL = '/ui-template/'
 IMPORT_EXPORT_USE_TRANSACTIONS = True
 
-STATICFILES_DIRS = ['/Users/baljeetyadav/Downloads/c3EngineeringDashboard/website/dashboardApp/ui-template']
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'dashboardApp/ui-template')]
