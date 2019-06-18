@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'import_export',
+    'mathfilters',
     'dashboardApp.apps.DashboardappConfig',
     'django.contrib.admin',
     'django.contrib.auth',

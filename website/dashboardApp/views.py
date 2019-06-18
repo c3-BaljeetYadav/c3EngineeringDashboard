@@ -7,7 +7,7 @@ from django.db.models import Q
 from functools import reduce
 from .models import JiraStatistics
 from .data import data
-from .charts import BrowserUsageHorizontalChart
+# from .charts import BrowserUsageHorizontalChart
 
 
 class IndexView(TemplateView):
@@ -57,6 +57,8 @@ class IndexView(TemplateView):
         context['p1s'] = get_p1s()
         context['rate_under_estimated'] = get_rate_under_estimated()
         context['links'] = get_links()
+
+        context['sprint_completion_chart_data'] = JiraStatistics.objects.filter(SprintNum__gte=sprint_obj.SprintNum - 10)
         return context
 
 
