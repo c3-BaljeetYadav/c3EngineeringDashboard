@@ -1,9 +1,8 @@
 from django.urls import path
-from .views import IndexView, SingleView, LoginView, NewsView
+from .views import IndexView, LoginView
 
 urlpatterns = [
-    path('', SingleView.as_view(), name='index.html'),
-    path('login', LoginView.as_view(), name='index-okta.html'),
-    path('index.html', SingleView.as_view(), name='index.html'),
-    path('news.html', NewsView.as_view(),  name='news.html')
+    path('', IndexView.as_view(), name='index.html'),
+    path('login', LoginView.as_view(), name='login.html'),
+    path('index.html', IndexView.as_view(), name='index.html')
 ]

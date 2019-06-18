@@ -1,38 +1,47 @@
+import os
 from collections import defaultdict
 from datetime import datetime, timedelta
 
 from github import Github
 from dashboardApp.models import JiraStatistics, GithubPullRequestSize, GithubPullRequestNotification
+from django.contrib.auth.models import User
+from django.db import IntegrityError
 
-from .c3_jira_api import C3Jira
+from .c3_jira import C3Jira
 
 
-def get_jira_stats(username, token):
+def update_jira_stats(db_info):
     result_stats = {}
+    jira = C3Jira(db_info)
+    users = User.objects.all()
 
-    jira = C3Jira(server='https://c3energy.atlassian.net', username=username, token=token)
+    for user_info in users:
+        user = user_info.username
 
-    result_stats['SprintNum'] = jira.current_sprint_num()
+        result_stats['User'] = user
+        result_stats['SprintNum'] = jira.current_sprint_num()
 
-    sprint_completed, sprint_assigned = jira.current_issues_with_status(['Done', 'Resolved', 'Closed', 'Closed-Verified'])
-    p0_completed, p0_assigned = jira.current_issues_with_priority('p0')
-    p1_completed, p1_assigned = jira.current_issues_with_priority('p1')
-    result_stats['SprintCompleted'] = len(sprint_completed)
-    result_stats['SprintAssigned'] = len(sprint_assigned)
-    result_stats['P0Completed'] = len(p0_completed)
-    result_stats['P0Assigned'] = len(p0_assigned)
-    result_stats['P1Completed'] = len(p1_completed)
-    result_stats['P1Assigned'] = len(p1_assigned)
+        sprint_completed, sprint_assigned = jira.current_issues_with_status(user, ['Done', 'Resolved', 'Closed', 'Closed-Verified'])
+        p0_completed, p0_assigned = jira.current_issues_with_priority(user, 'p0')
+        p1_completed, p1_assigned = jira.current_issues_with_priority(user, 'p1')
+        result_stats['SprintCompleted'] = len(sprint_completed)
+        result_stats['SprintAssigned'] = len(sprint_assigned)
+        result_stats['P0Completed'] = len(p0_completed)
+        result_stats['P0Assigned'] = len(p0_assigned)
+        result_stats['P1Completed'] = len(p1_completed)
+        result_stats['P1Assigned'] = len(p1_assigned)
 
-    result_stats['NumberOfCompletedRcas'] = jira.current_num_completed_rca()
-    result_stats['UnderestimatedTicketRates'] = jira.current_rate_underestimated_tickets()
+        rca_completed, rca_total = jira.current_issues_completed_rca(user)
+        underestimated, time_total = jira.current_issues_underestimated(user)
+        result_stats['RcaCompleted'] = len(rca_completed)
+        result_stats['RcaTotal'] = len(rca_total)
+        result_stats['UnderestimatedTicketRates'] = len(underestimated) / len(time_total)
 
-    return result_stats
-
-
-def save_stats_to_db(stats):
-    j = JiraStatistics(**stats)
-    j.save()
+        j = JiraStatistics(**result_stats)
+        try:
+            j.save()
+        except IntegrityError:
+            pass
 
 
 def get_github_info(username, token):
@@ -83,12 +92,19 @@ def save_github_info_to_db(pr_sizes, pr_notify):
 
 
 def load_all_data():
-    jira_pass_fname = 'dashboardApp/data/jira.pass'
-    with open(jira_pass_fname) as f:
-        jira_username, jira_token = [s.strip() for s in f]
+    try:
+        username, password = os.environ['C3P0_USERNAME'], os.environ['C3P0_PASSWORD']
+    except:
+        raise Exception('You need to set environment variables: C3P0_USERNAME, C3P0_PASSWORD')
 
-    stats = get_jira_stats(jira_username, jira_token)
-    save_stats_to_db(stats)
+    db_info = {
+        'dbname': 'prodc3rs01',
+        'host': 'stage-c3-rs-01.c7kp1i36dopx.us-east-1.redshift.amazonaws.com',
+        'port': '5439',
+        'user': username,
+        'password': password
+    }
+    update_jira_stats(db_info)
 
     github_pass_fname = 'dashboardApp/data/github.pass'
     with open(github_pass_fname) as f:
