@@ -24,17 +24,19 @@ css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGv
         <div class="col-lg-4">
             <div class="card">
                 <article class="card-body">
-                <a href="{% url 'signup' %}" class="float-right btn btn-outline-primary">Sign up</a>
-                <h4 class="card-title mb-4 mt-1">Sign in</h4>
+                <a href="{% url 'login' %}" class="float-right btn btn-outline-primary">Sign in</a>
+                <h4 class="card-title mb-4 mt-1">Sign up</h4>
+                <p>Please use the first part of your C3 email address as the username</p>
+                <p>(e.g. If your email address is abc@example.com, your username should be abc.)</p>
                 <form method="post">
                     {% csrf_token %}
                     {{ form.as_p }}
                     <div class="form-group">
-                        <button type="submit" class="btn btn-primary btn-block"> Login  </button>
+                        <button type="submit" class="btn btn-primary btn-block"> Sign up  </button>
                     </div>                                                          
                 </form>
                 </article>
-            </div> <!-- card.// -->
+            </div>
         </div>
         <div class="col-lg-4"></div>
     </div>

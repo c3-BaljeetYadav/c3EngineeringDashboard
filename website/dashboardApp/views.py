@@ -1,22 +1,26 @@
 from django.views.generic import TemplateView
 from django.db.models import Sum, Max
-from django.contrib.auth import authenticate
+from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth.mixins import LoginRequiredMixin
+from django.shortcuts import redirect, render
+from django.http import HttpResponseRedirect
 
 import operator
 from django.db.models import Q
 from functools import reduce
-from .models import JiraStatistics
+from .models import JiraStatistics, GithubPullRequestSize, GithubPullRequestNotification
 from .data import data
-# from .charts import BrowserUsageHorizontalChart
+from .forms import SignupForm
 
 
-class IndexView(TemplateView):
+class IndexView(TemplateView, LoginRequiredMixin):
     template_name = 'ui-template/pages/index.html'
+    login_url = '/dashboard/login'
 
     def get_context_data(self, **kwargs):
-        # data.load_all_data()
+        data.load_all_data()
 
-        user = 'aiden.tai'
+        user = self.request.user
 
         sprint_obj = JiraStatistics.objects.filter(User=user).latest('SprintNum')
 
@@ -47,6 +51,14 @@ class IndexView(TemplateView):
                 'p1': 'https://c3energy.atlassian.net/issues/?filter=35274',
                 'rca': 'https://c3energy.atlassian.net/issues/?filter=34972'
             }
+        
+        def get_pr_size_data(num_pr):
+            result = []
+            repos = GithubPullRequestSize.objects.filter(User=user).order_by().values('Repo').distinct()
+            for r in repos:
+                prs = GithubPullRequestSize.objects.filter(User=user, Repo=r).order_by('-Number')[:num_pr][::-1]
+                result.append((r, prs))
+            return result
 
         context = super(IndexView, self).get_context_data(**kwargs)
         context['sprint_num'] = get_sprint_num()
@@ -58,13 +70,27 @@ class IndexView(TemplateView):
         context['rate_under_estimated'] = get_rate_under_estimated()
         context['links'] = get_links()
 
-        context['sprint_completion_chart_data'] = JiraStatistics.objects.filter(SprintNum__gte=sprint_obj.SprintNum - 10)
+        num_pr = 50
+        num_sprint = 10
+        context['pull_request_notify_panel_data'] = GithubPullRequestNotification.objects.filter(User=user)
+        context['pull_request_size_chart_data'] = get_pr_size_data(num_pr)
+        context['sprint_completion_chart_data'] = JiraStatistics.objects.filter(User=user, SprintNum__gte=sprint_obj.SprintNum - num_sprint)
         return context
 
 
-class LoginView(TemplateView):
-    template_name = 'ui-template/pages/login.html'
+def signup_view(request):
+    if request.method == 'POST':
+        form = SignupForm(request.POST)
+        if form.is_valid():
+            user = form.save()
 
-    def get_context_data(self, **kwargs):
-        context = super(LoginView, self).get_context_data(**kwargs)
-        return context
+            login(request, user)
+            return redirect('home')
+    else:
+        form = SignupForm()
+    return render(request, 'ui-template/pages/signup.html', {'form': form})
+
+
+def logout_view(request):
+    logout(request)
+    return redirect('login')

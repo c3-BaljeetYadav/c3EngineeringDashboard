@@ -2,24 +2,25 @@ import os
 from collections import defaultdict
 from datetime import datetime, timedelta
 
-from github import Github
 from dashboardApp.models import JiraStatistics, GithubPullRequestSize, GithubPullRequestNotification
-from django.contrib.auth.models import User
+from dashboardApp.models import UserProfile
 from django.db import IntegrityError
 
 from .c3_jira import C3Jira
+from .c3_github import C3Github
 
 
 def update_jira_stats(db_info):
     result_stats = {}
     jira = C3Jira(db_info)
-    users = User.objects.all()
+    users = UserProfile.objects.all().filter(is_staff=False)
 
     for user_info in users:
         user = user_info.username
 
         result_stats['User'] = user
         result_stats['SprintNum'] = jira.current_sprint_num()
+        result_stats['id'] = result_stats['User'] + '_' + str(result_stats['SprintNum'])
 
         sprint_completed, sprint_assigned = jira.current_issues_with_status(user, ['Done', 'Resolved', 'Closed', 'Closed-Verified'])
         p0_completed, p0_assigned = jira.current_issues_with_priority(user, 'p0')
@@ -38,57 +39,35 @@ def update_jira_stats(db_info):
         result_stats['UnderestimatedTicketRates'] = len(underestimated) / len(time_total)
 
         j = JiraStatistics(**result_stats)
-        try:
+        if JiraStatistics.objects.filter(id = result_stats['id']).count():
+            j.save(force_update=True)
+        else:
             j.save()
-        except IntegrityError:
-            pass
 
 
-def get_github_info(username, token):
-    g = Github(username, token)
+def update_github_info(db_info):
+    github = C3Github(db_info)
+    users = UserProfile.objects.all().filter(is_staff=False)
 
-    # Size of pull requests
-    pr_sizes = defaultdict(list)
-    my_repos = g.get_user().get_repos()
-    for r in my_repos:
-        pulls = r.get_pulls(sort='created')
-        for p in pulls:
-            if p.assignee == g.get_user():
-                new_pr = {
-                    'Number': p.number,
-                    'Additions': p.additions,
-                    'Deletions': p.deletions
-                }
-                pr_sizes[r].append(new_pr)
-
-    # Pull requests notification that are over 24 hours
-    compare_time = datetime.now() - timedelta(days=1)
-    pr_notify = []
-    for r in my_repos:
-        pulls = r.get_pulls(state='open')
-        for p in pulls:
-            if p.assignee == g.get_user() and p.updated_at < compare_time:
-                new_pr = {
-                    'Number': p.number,
-                    'Title': p.title,
-                    'Url': p.html_url
-                }
-                pr_notify.append(new_pr)
-    
-    return pr_sizes, pr_notify
-
-
-def save_github_info_to_db(pr_sizes, pr_notify):
-    # Size of pull requests
-    for repo, pr in pr_sizes.items():
-        g = GithubPullRequestSize(Repo=repo, **pr)
-        g.save()
-
-    # Pull requests notification that are over 24 hours
     GithubPullRequestNotification.objects.all().delete()
-    for pr in pr_notify:
-        g = GithubPullRequestNotification(**pr)
-        g.save()
+
+    for user_info in users:
+        user = user_info.username
+
+        # Size of pull requests
+        prs_size = github.pr_size(user)
+        for p in prs_size:
+            g = GithubPullRequestSize(**p)
+            if GithubPullRequestSize.objects.filter(id = p['id']).count():
+                g.save(force_update=True)
+            else:
+                g.save()
+
+        # Pull requests over 24 hours
+        prs_24_hours = github.pr_over_24_hours(user)
+        for p in prs_24_hours:
+            g = GithubPullRequestNotification(**p)
+            g.save()
 
 
 def load_all_data():
@@ -105,11 +84,6 @@ def load_all_data():
         'password': password
     }
     update_jira_stats(db_info)
+    update_github_info(db_info)
 
-    github_pass_fname = 'dashboardApp/data/github.pass'
-    with open(github_pass_fname) as f:
-        github_username, github_token = [s.strip() for s in f]
-
-    pr_sizes, pr_notify = get_github_info(github_username, github_token)
-    save_github_info_to_db(pr_sizes, pr_notify)
     print('All data successfully fetched and saved!')

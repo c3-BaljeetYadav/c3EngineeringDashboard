@@ -124,3 +124,7 @@ STATIC_URL = '/ui-template/'
 IMPORT_EXPORT_USE_TRANSACTIONS = True
 
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'dashboardApp/ui-template')]
+
+LOGIN_REDIRECT_URL = '/dashboard'
+
+AUTH_USER_MODEL = 'dashboardApp.UserProfile'

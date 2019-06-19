@@ -34,7 +34,7 @@ class C3Jira(object):
             self.curr_sprint_name
         except:
             raise ValueError('Could not find the current sprint!')
-    
+
     def __enter__(self):
         return self
 
