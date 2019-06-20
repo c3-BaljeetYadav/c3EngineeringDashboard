@@ -5,6 +5,7 @@ from datetime import datetime, timedelta
 from dashboardApp.models import JiraStatistics, GithubPullRequestSize, GithubPullRequestNotification
 from dashboardApp.models import UserProfile
 from django.db import IntegrityError
+from django.utils import timezone
 
 from .c3_jira import C3Jira
 from .c3_github import C3Github
@@ -36,7 +37,7 @@ def update_jira_stats(db_info):
         underestimated, time_total = jira.current_issues_underestimated(user)
         result_stats['RcaCompleted'] = len(rca_completed)
         result_stats['RcaTotal'] = len(rca_total)
-        result_stats['UnderestimatedTicketRates'] = len(underestimated) / len(time_total)
+        result_stats['UnderestimatedTicketRates'] = len(underestimated) / len(time_total) if len(time_total) != 0 else 0.0
 
         j = JiraStatistics(**result_stats)
         if JiraStatistics.objects.filter(id = result_stats['id']).count():
@@ -86,4 +87,5 @@ def load_all_data():
     update_jira_stats(db_info)
     update_github_info(db_info)
 
-    print('All data successfully fetched and saved!')
+    now = timezone.make_aware(datetime.today())
+    print('All data successfully fetched and saved at {}!'.format(now))

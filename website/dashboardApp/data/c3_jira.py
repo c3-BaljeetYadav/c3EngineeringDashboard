@@ -25,7 +25,7 @@ class C3Jira(object):
             cond = "'Sprint % ({})'".format(start + ' - ' + end)
 
             c = self.db_conn.cursor()
-            c.execute('SELECT sprint FROM c3_2_jira_tickets_history WHERE sprint LIKE {} LIMIT 1'.format(cond))
+            c.execute('SELECT lastsprint FROM c3_2_jira_tickets_history WHERE lastsprint LIKE {} LIMIT 1'.format(cond))
             data = np.array(c.fetchone())
             if data:
                 self.curr_sprint_name = data[0]
@@ -48,12 +48,8 @@ class C3Jira(object):
         # TODO: improve this code to prevent SQL injection
         query = '''
         SELECT *
-        FROM (
-            SELECT max(id) AS id, jiraid
-            FROM c3_2_jira_tickets_history GROUP BY jiraid
-        ) AS x INNER JOIN c3_2_jira_tickets_history AS c
-        ON c.id = x.id AND c.jiraid = x.jiraid
-        WHERE {};
+        FROM c3_2_jira_tickets_history
+        WHERE currentflag = 'y' AND {};
         '''.format(' AND '.join(conds))
 
         c.execute(query)
@@ -66,7 +62,7 @@ class C3Jira(object):
     # External methods for clients to use
     def current_issues_with_status(self, user, status = ['Done', 'Resolved', 'Closed', 'Closed-Verified']):
         conds = []
-        conds.append("sprint = '{}'".format(self.curr_sprint_name))
+        conds.append("lastsprint = '{}'".format(self.curr_sprint_name))
         conds.append("assignee = '{}'".format(user))
         assigned = self.run_sql(*conds)
         
@@ -85,7 +81,7 @@ class C3Jira(object):
         }
 
         conds = []
-        conds.append("sprint = '{}'".format(self.curr_sprint_name))
+        conds.append("lastsprint = '{}'".format(self.curr_sprint_name))
         conds.append("assignee = '{}'".format(user))
         conds.append("priority = '{}'".format(priorities[priority]))
         assigned = self.run_sql(*conds)
@@ -96,7 +92,7 @@ class C3Jira(object):
 
     def current_issues_completed_rca(self, user):
         conds = []
-        conds.append("sprint = '{}'".format(self.curr_sprint_name))
+        conds.append("lastsprint = '{}'".format(self.curr_sprint_name))
         conds.append("assignee = '{}'".format(user))
         conds.append("priority IN ('P0 - Blocker', 'P1 - Urgent with no workaround')")
         total = self.run_sql(*conds)
@@ -107,7 +103,7 @@ class C3Jira(object):
 
     def current_issues_underestimated(self, user):
         conds = []
-        conds.append("sprint = '{}'".format(self.curr_sprint_name))
+        conds.append("lastsprint = '{}'".format(self.curr_sprint_name))
         conds.append("assignee = '{}'".format(user))
         conds.append("originalestimate IS NOT NULL")
         assigned = self.run_sql(*conds)

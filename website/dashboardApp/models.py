@@ -15,7 +15,7 @@ class UserProfile(AbstractUser):
 
 class JiraStatistics(models.Model):
     class Meta:
-        unique_together = (('User', 'SprintNum',))
+        unique_together = ('User', 'SprintNum')
 
     id = models.CharField(max_length=150, primary_key=True)
     User = models.CharField(max_length=100)
@@ -33,22 +33,22 @@ class JiraStatistics(models.Model):
 
 class GithubPullRequestSize(models.Model):
     class Meta:
-        unique_together = (('User', 'Repo',))
+        unique_together = ('User', 'Repo', 'Number')
 
     id = models.CharField(max_length=200, primary_key=True)
     User = models.CharField(max_length=100)
     Repo = models.CharField(max_length=100)
-    Number = models.CharField(max_length=20)
+    Number = models.IntegerField()
     Additions = models.IntegerField()
     Deletions = models.IntegerField()
 
 
 class GithubPullRequestNotification(models.Model):
     class Meta:
-        unique_together = (('User', 'Number',))
+        unique_together = ('User', 'Number')
 
     id = models.CharField(max_length=150, primary_key=True)
     User = models.CharField(max_length=100)
-    Number = models.CharField(max_length=20)
+    Number = models.IntegerField()
     Title = models.CharField(max_length=150)
     Url = models.CharField(max_length=300)

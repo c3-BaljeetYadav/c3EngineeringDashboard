@@ -13,9 +13,10 @@ from .data import data
 from .forms import SignupForm
 
 
-class IndexView(TemplateView, LoginRequiredMixin):
+class IndexView(LoginRequiredMixin, TemplateView):
     template_name = 'ui-template/pages/index.html'
     login_url = '/dashboard/login'
+    redirect_field_name = 'login'
 
     def get_context_data(self, **kwargs):
         data.load_all_data()
@@ -56,8 +57,9 @@ class IndexView(TemplateView, LoginRequiredMixin):
             result = []
             repos = GithubPullRequestSize.objects.filter(User=user).order_by().values('Repo').distinct()
             for r in repos:
-                prs = GithubPullRequestSize.objects.filter(User=user, Repo=r).order_by('-Number')[:num_pr][::-1]
-                result.append((r, prs))
+                repo_name = r['Repo']
+                prs = GithubPullRequestSize.objects.filter(User=user, Repo=repo_name).order_by('-Number')[:num_pr][::-1]
+                result.append((repo_name, prs))
             return result
 
         context = super(IndexView, self).get_context_data(**kwargs)
