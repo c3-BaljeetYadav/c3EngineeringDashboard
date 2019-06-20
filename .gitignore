@@ -4,6 +4,7 @@ devEnv/
 
 # Temporary files
 *.pyc
+*.csv
 
 # System files
 *.DS_Store
