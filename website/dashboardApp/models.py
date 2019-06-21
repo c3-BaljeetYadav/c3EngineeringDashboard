@@ -7,7 +7,7 @@ class UserProfile(AbstractUser):
     GithubUser = models.CharField(max_length=50)
 
     USERNAME_FIELD = 'username'
-    REQUIRED_FIELDS = ['GithubUser', 'password']
+    REQUIRED_FIELDS = ['email', 'GithubUser', 'password']
 
     def __str__(self):
         return self.username
