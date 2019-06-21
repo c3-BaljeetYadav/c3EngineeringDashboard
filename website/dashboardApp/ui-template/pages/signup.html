@@ -26,8 +26,8 @@ css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGv
                 <article class="card-body">
                 <a href="{% url 'login' %}" class="float-right btn btn-outline-primary">Sign in</a>
                 <h4 class="card-title mb-4 mt-1">Sign up</h4>
-                <p>Please use the first part of your C3 email address as the username</p>
-                <p>(e.g. If your email address is abc@example.com, your username should be abc.)</p>
+                <p style="font-weight: bold; text-decoration: underline;">Please use the first part of your C3 email address as the username</p>
+                <p style="font-weight: bold; text-decoration: underline;">(e.g. If your email address is abc@example.com, your username should be abc.)</p>
                 <form method="post">
                     {% csrf_token %}
                     {{ form.as_p }}
