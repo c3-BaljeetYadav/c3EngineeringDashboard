@@ -15,4 +15,4 @@ jira.*
 github.*
 *.db
 db.*
-
+secret_key.txt
