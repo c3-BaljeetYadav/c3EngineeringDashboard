@@ -19,7 +19,8 @@ class IndexView(LoginRequiredMixin, TemplateView):
     redirect_field_name = 'login'
 
     def get_context_data(self, **kwargs):
-        data.load_all_data()
+        # Toggle this line to enable data loading process when homepage opens
+        # data.load_all_data()
 
         user = self.request.user
 
