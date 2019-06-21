@@ -4,7 +4,7 @@ from .models import UserProfile
 class SignupForm(UserCreationForm):
     class Meta(UserCreationForm.Meta):
         model = UserProfile
-        fields = ('username', 'GithubUser', 'password1', 'password2')
+        fields = ('username', 'email', 'GithubUser', 'password1', 'password2')
         labels = {
             'GithubUser': 'Github Username'
         }
