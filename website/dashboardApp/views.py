@@ -88,6 +88,7 @@ def signup_view(request):
             user = form.save()
 
             login(request, user)
+            data.load_all_data()
             return redirect('home')
     else:
         form = SignupForm()
