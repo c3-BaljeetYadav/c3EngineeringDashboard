@@ -50,7 +50,7 @@ ptyprocess==0.6.0
 pycparser==2.19
 pygal==2.4.0
 PyGithub==1.43.7
-Pygments==2.4.2
+Pygments==2.7.4
 PyJWT==1.7.1
 pylint==2.3.1
 python-crontab==2.3.6
